@@ -52,6 +52,12 @@
     <Compile Include="Dangnhap.Designer.cs">
       <DependentUpon>Dangnhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="DienThongTinBenhNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DienThongTinBenhNhan.Designer.cs">
+      <DependentUpon>DienThongTinBenhNhan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Doimatkhau.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Dangnhap.resx">
       <DependentUpon>Dangnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DienThongTinBenhNhan.resx">
+      <DependentUpon>DienThongTinBenhNhan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Doimatkhau.resx">
       <DependentUpon>Doimatkhau.cs</DependentUpon>

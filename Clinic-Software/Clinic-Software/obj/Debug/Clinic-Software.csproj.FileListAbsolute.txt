@@ -22,3 +22,16 @@ D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Soft
 D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.pdb
 D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Dangnhap.resources
 D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Doimatkhau.resources
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe.config
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.pdb
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.AssemblyReference.cache
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Dangnhap.resources
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Doimatkhau.resources
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Homepage.resources
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Properties.Resources.resources
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.GenerateResource.cache
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.CoreCompileInputs.cache
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.exe
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.pdb
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.DienThongTinBenhNhan.resources
