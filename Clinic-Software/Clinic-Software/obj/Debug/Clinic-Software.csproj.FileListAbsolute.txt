@@ -8,3 +8,17 @@ C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.
 C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.CoreCompileInputs.cache
 C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.exe
 C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.pdb
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.AssemblyReference.cache
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Homepage.resources
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Properties.Resources.resources
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.GenerateResource.cache
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.CoreCompileInputs.cache
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.exe
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.pdb
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic.frmDangnhap.resources
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic.frmDoimatkhau.resources
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe.config
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.pdb
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Dangnhap.resources
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Doimatkhau.resources
