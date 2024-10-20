@@ -16,8 +16,8 @@ namespace Clinic_Software
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Homepage());
-            //Application.Run(new DienThongTinBenhNhan());
+            //Application.Run(new Homepage());
+            Application.Run(new DienThongTinBenhNhan());
             //Application.Run(new Dangnhap());
             //Application.Run(new Doimatkhau());
         }
