@@ -16,5 +16,35 @@ namespace Clinic_Software
         {
             InitializeComponent();
         }
+
+        private void Doimatkhau_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblmkmoi_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblxacnhanmk_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
