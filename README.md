@@ -1,6 +1,7 @@
 Màu chủ đạo 
-rgb(26, 26, 25)
-rgb(49, 81, 30)
-rgb(133, 159, 61)
-rgb(246, 252, 223)
-![image](https://github.com/user-attachments/assets/ac94fb24-f189-47ca-b56b-4484d9fecf50)
+rgb(223, 242, 235)
+rgb(185, 229, 232)
+rgb(122, 178, 211)
+rgb(74, 98, 138)
+![image](https://github.com/user-attachments/assets/fafa7f68-8320-403f-805f-6c303c690fe3)
+
