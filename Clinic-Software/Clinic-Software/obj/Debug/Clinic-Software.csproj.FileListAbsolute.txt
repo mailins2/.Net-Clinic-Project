@@ -1,0 +1,50 @@
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe.config
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.pdb
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.AssemblyReference.cache
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Homepage.resources
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Properties.Resources.resources
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.GenerateResource.cache
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.CoreCompileInputs.cache
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.exe
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.pdb
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.AssemblyReference.cache
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Homepage.resources
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Properties.Resources.resources
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.GenerateResource.cache
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.CoreCompileInputs.cache
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.exe
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.pdb
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic.frmDangnhap.resources
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic.frmDoimatkhau.resources
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe.config
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.pdb
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Dangnhap.resources
+D:\Học tập\Công nghệ.Net\Đồ án chính\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Doimatkhau.resources
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe.config
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.pdb
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.AssemblyReference.cache
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Dangnhap.resources
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Doimatkhau.resources
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Homepage.resources
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Properties.Resources.resources
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.GenerateResource.cache
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.CoreCompileInputs.cache
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.exe
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.pdb
+E:\Project\CongNghe.Net\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.DienThongTinBenhNhan.resources
+C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe.config
+C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe
+C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.pdb
+C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.AssemblyReference.cache
+C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Dangnhap.resources
+C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.DienThongTinBenhNhan.resources
+C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Doimatkhau.resources
+C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Homepage.resources
+C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Properties.Resources.resources
+C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.GenerateResource.cache
+C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.CoreCompileInputs.cache
+C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.exe
+C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.pdb
