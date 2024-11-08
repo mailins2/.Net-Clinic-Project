@@ -48,3 +48,10 @@ C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Soft
 C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.CoreCompileInputs.cache
 C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.exe
 C:\Users\nguye\source\Github\.Net-Clinic-Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.pdb
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.BacSi.resources
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Dangnhap.resources
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.DienThongTinBenhNhan.resources
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Doimatkhau.resources
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.KhamBenh.resources
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.ThongTinKhamBenh.resources
+C:\Users\nguye\source\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.KeDichVu.resources
