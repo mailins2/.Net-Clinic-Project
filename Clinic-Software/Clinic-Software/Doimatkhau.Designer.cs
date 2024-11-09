@@ -28,86 +28,132 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ckbhienthi = new System.Windows.Forms.CheckBox();
-            this.btnXacnhan = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Doimatkhau));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnxacnhan = new System.Windows.Forms.Button();
+            this.ckbHTmatkhau = new System.Windows.Forms.CheckBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lblmatkhaumoi = new System.Windows.Forms.Label();
+            this.lblxacnhanmk = new System.Windows.Forms.Label();
+            this.lblmkmoi = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
-            // ckbhienthi
+            // panel1
             // 
-            this.ckbhienthi.AutoSize = true;
-            this.ckbhienthi.Location = new System.Drawing.Point(387, 210);
-            this.ckbhienthi.Name = "ckbhienthi";
-            this.ckbhienthi.Size = new System.Drawing.Size(130, 20);
-            this.ckbhienthi.TabIndex = 11;
-            this.ckbhienthi.Text = "Hiển thị mật khẩu";
-            this.ckbhienthi.UseVisualStyleBackColor = true;
+            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel1.Location = new System.Drawing.Point(101, 43);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(230, 159);
+            this.panel1.TabIndex = 0;
             // 
-            // btnXacnhan
+            // btnxacnhan
             // 
-            this.btnXacnhan.BackColor = System.Drawing.Color.SkyBlue;
-            this.btnXacnhan.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnXacnhan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnXacnhan.Location = new System.Drawing.Point(207, 248);
-            this.btnXacnhan.Name = "btnXacnhan";
-            this.btnXacnhan.Size = new System.Drawing.Size(160, 45);
-            this.btnXacnhan.TabIndex = 10;
-            this.btnXacnhan.Text = "Xác nhận";
-            this.btnXacnhan.UseVisualStyleBackColor = false;
+            this.btnxacnhan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.btnxacnhan.FlatAppearance.BorderSize = 0;
+            this.btnxacnhan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnxacnhan.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnxacnhan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnxacnhan.Location = new System.Drawing.Point(101, 433);
+            this.btnxacnhan.Name = "btnxacnhan";
+            this.btnxacnhan.Size = new System.Drawing.Size(230, 48);
+            this.btnxacnhan.TabIndex = 30;
+            this.btnxacnhan.Text = "Xác nhận";
+            this.btnxacnhan.UseVisualStyleBackColor = false;
+            // 
+            // ckbHTmatkhau
+            // 
+            this.ckbHTmatkhau.AutoSize = true;
+            this.ckbHTmatkhau.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.ckbHTmatkhau.Location = new System.Drawing.Point(257, 391);
+            this.ckbHTmatkhau.Name = "ckbHTmatkhau";
+            this.ckbHTmatkhau.Size = new System.Drawing.Size(130, 20);
+            this.ckbHTmatkhau.TabIndex = 29;
+            this.ckbHTmatkhau.Text = "Hiện thị mật khẩu";
+            this.ckbHTmatkhau.UseVisualStyleBackColor = true;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(285, 160);
+            this.textBox2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.textBox2.Location = new System.Drawing.Point(214, 330);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(232, 31);
-            this.textBox2.TabIndex = 9;
+            this.textBox2.PasswordChar = '*';
+            this.textBox2.Size = new System.Drawing.Size(173, 31);
+            this.textBox2.TabIndex = 28;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(285, 79);
+            this.textBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.textBox1.Location = new System.Drawing.Point(214, 248);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(232, 31);
-            this.textBox1.TabIndex = 8;
+            this.textBox1.PasswordChar = '*';
+            this.textBox1.Size = new System.Drawing.Size(173, 31);
+            this.textBox1.TabIndex = 27;
             // 
-            // label2
+            // lblxacnhanmk
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(52, 161);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(194, 19);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Xác nhận mật khẩu mới";
+            this.lblxacnhanmk.AutoSize = true;
+            this.lblxacnhanmk.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblxacnhanmk.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.lblxacnhanmk.Location = new System.Drawing.Point(27, 342);
+            this.lblxacnhanmk.Name = "lblxacnhanmk";
+            this.lblxacnhanmk.Size = new System.Drawing.Size(159, 19);
+            this.lblxacnhanmk.TabIndex = 26;
+            this.lblxacnhanmk.Text = "Xác nhận mật khẩu";
             // 
-            // lblmatkhaumoi
+            // lblmkmoi
             // 
-            this.lblmatkhaumoi.AutoSize = true;
-            this.lblmatkhaumoi.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblmatkhaumoi.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblmatkhaumoi.Location = new System.Drawing.Point(52, 79);
-            this.lblmatkhaumoi.Name = "lblmatkhaumoi";
-            this.lblmatkhaumoi.Size = new System.Drawing.Size(162, 19);
-            this.lblmatkhaumoi.TabIndex = 6;
-            this.lblmatkhaumoi.Text = "Nhập mật khẩu mới";
+            this.lblmkmoi.AutoSize = true;
+            this.lblmkmoi.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblmkmoi.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.lblmkmoi.Location = new System.Drawing.Point(24, 260);
+            this.lblmkmoi.Name = "lblmkmoi";
+            this.lblmkmoi.Size = new System.Drawing.Size(115, 19);
+            this.lblmkmoi.TabIndex = 25;
+            this.lblmkmoi.Text = "Mật khẩu mới";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.panel2.Location = new System.Drawing.Point(28, 370);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(359, 3);
+            this.panel2.TabIndex = 23;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.panel3.Location = new System.Drawing.Point(28, 287);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(359, 3);
+            this.panel3.TabIndex = 24;
             // 
             // Doimatkhau
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(589, 323);
-            this.Controls.Add(this.ckbhienthi);
-            this.Controls.Add(this.btnXacnhan);
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ClientSize = new System.Drawing.Size(426, 506);
+            this.Controls.Add(this.btnxacnhan);
+            this.Controls.Add(this.ckbHTmatkhau);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.lblmatkhaumoi);
+            this.Controls.Add(this.lblxacnhanmk);
+            this.Controls.Add(this.lblmkmoi);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel1);
             this.Name = "Doimatkhau";
             this.Text = "Doimatkhau";
             this.ResumeLayout(false);
@@ -117,11 +163,14 @@
 
         #endregion
 
-        private System.Windows.Forms.CheckBox ckbhienthi;
-        private System.Windows.Forms.Button btnXacnhan;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnxacnhan;
+        private System.Windows.Forms.CheckBox ckbHTmatkhau;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblmatkhaumoi;
+        private System.Windows.Forms.Label lblxacnhanmk;
+        private System.Windows.Forms.Label lblmkmoi;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
     }
 }
