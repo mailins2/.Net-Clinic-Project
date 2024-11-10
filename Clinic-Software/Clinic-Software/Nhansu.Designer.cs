@@ -90,6 +90,8 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
             this.lblmanv = new System.Windows.Forms.Label();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.btnthemnv = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.tabControlBacsi.SuspendLayout();
@@ -268,7 +270,7 @@
             this.button3.Location = new System.Drawing.Point(354, 72);
             this.button3.Name = "button3";
             this.button3.Padding = new System.Windows.Forms.Padding(4, 2, 2, 4);
-            this.button3.Size = new System.Drawing.Size(50, 38);
+            this.button3.Size = new System.Drawing.Size(59, 38);
             this.button3.TabIndex = 2;
             this.button3.UseVisualStyleBackColor = false;
             // 
@@ -309,6 +311,7 @@
             // tabPagebacsi
             // 
             this.tabPagebacsi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
+            this.tabPagebacsi.Controls.Add(this.btnThem);
             this.tabPagebacsi.Controls.Add(this.btnLuu);
             this.tabPagebacsi.Controls.Add(this.btnXoa);
             this.tabPagebacsi.Controls.Add(this.txthocham);
@@ -340,11 +343,11 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(149)))), ((int)(((byte)(130)))));
+            this.btnLuu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(199)))), ((int)(((byte)(90)))));
             this.btnLuu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLuu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
             this.btnLuu.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLuu.Location = new System.Drawing.Point(469, 571);
+            this.btnLuu.Location = new System.Drawing.Point(440, 571);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(125, 43);
             this.btnLuu.TabIndex = 21;
@@ -353,11 +356,12 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(149)))), ((int)(((byte)(130)))));
+            this.btnXoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(3)))), ((int)(((byte)(46)))));
+            this.btnXoa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
-            this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnXoa.Location = new System.Drawing.Point(304, 571);
+            this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnXoa.Location = new System.Drawing.Point(246, 571);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(125, 43);
             this.btnXoa.TabIndex = 20;
@@ -542,6 +546,7 @@
             // tabPageNhanvien
             // 
             this.tabPageNhanvien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
+            this.tabPageNhanvien.Controls.Add(this.btnthemnv);
             this.tabPageNhanvien.Controls.Add(this.button1);
             this.tabPageNhanvien.Controls.Add(this.button2);
             this.tabPageNhanvien.Controls.Add(this.txtemaill);
@@ -571,7 +576,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(149)))), ((int)(((byte)(130)))));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(199)))), ((int)(((byte)(90)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -584,11 +589,11 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(149)))), ((int)(((byte)(130)))));
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(3)))), ((int)(((byte)(46)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(278, 512);
+            this.button2.Location = new System.Drawing.Point(249, 512);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(125, 43);
             this.button2.TabIndex = 40;
@@ -766,6 +771,33 @@
             this.lblmanv.TabIndex = 22;
             this.lblmanv.Text = "Mã nhân viên : ";
             // 
+            // btnThem
+            // 
+            this.btnThem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(149)))), ((int)(((byte)(130)))));
+            this.btnThem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
+            this.btnThem.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnThem.Location = new System.Drawing.Point(59, 571);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(125, 43);
+            this.btnThem.TabIndex = 22;
+            this.btnThem.Text = "Thêm";
+            this.btnThem.UseVisualStyleBackColor = false;
+            // 
+            // btnthemnv
+            // 
+            this.btnthemnv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(149)))), ((int)(((byte)(130)))));
+            this.btnthemnv.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnthemnv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
+            this.btnthemnv.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnthemnv.Location = new System.Drawing.Point(59, 512);
+            this.btnthemnv.Name = "btnthemnv";
+            this.btnthemnv.Size = new System.Drawing.Size(125, 43);
+            this.btnthemnv.TabIndex = 42;
+            this.btnthemnv.Text = "Thêm\r\n";
+            this.btnthemnv.UseVisualStyleBackColor = false;
+            // 
             // Nhansu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -850,5 +882,7 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lblmanv;
+        private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.Button btnthemnv;
     }
 }

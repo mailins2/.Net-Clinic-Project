@@ -549,7 +549,7 @@ namespace Clinic_Software
             this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 83);
             this.tableLayoutPanel11.Name = "tableLayoutPanel11";
             this.tableLayoutPanel11.RowCount = 1;
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 82F));
             this.tableLayoutPanel11.Size = new System.Drawing.Size(728, 82);
             this.tableLayoutPanel11.TabIndex = 1;
             // 

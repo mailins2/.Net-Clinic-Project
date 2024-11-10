@@ -58,6 +58,18 @@
     <Compile Include="Baocaodoanhthu.Designer.cs">
       <DependentUpon>Baocaodoanhthu.cs</DependentUpon>
     </Compile>
+    <Compile Include="BCdanhsachkhambenh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCdanhsachkhambenh.Designer.cs">
+      <DependentUpon>BCdanhsachkhambenh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BCdoanhthudichvu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCdoanhthudichvu.Designer.cs">
+      <DependentUpon>BCdoanhthudichvu.cs</DependentUpon>
+    </Compile>
     <Compile Include="DangKyLichHen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +143,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Baocaodoanhthu.resx">
       <DependentUpon>Baocaodoanhthu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCdanhsachkhambenh.resx">
+      <DependentUpon>BCdanhsachkhambenh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCdoanhthudichvu.resx">
+      <DependentUpon>BCdoanhthudichvu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DangKyLichHen.resx">
       <DependentUpon>DangKyLichHen.cs</DependentUpon>

@@ -459,7 +459,7 @@ namespace Clinic_Software
             this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 23);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 170F));
             this.tableLayoutPanel7.Size = new System.Drawing.Size(731, 170);
             this.tableLayoutPanel7.TabIndex = 0;
             // 
@@ -490,7 +490,7 @@ namespace Clinic_Software
             this.tableLayoutPanel20.ColumnCount = 3;
             this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 120F));
+            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 121F));
             this.tableLayoutPanel20.Controls.Add(this.groupBox24, 1, 0);
             this.tableLayoutPanel20.Controls.Add(this.groupBox25, 0, 0);
             this.tableLayoutPanel20.Controls.Add(this.checkBox1, 2, 0);

@@ -115,3 +115,5 @@ D:\Học tập\Công nghệ.Net\New folder (3)\.Net-Clinic-Project\Clinic-Softwa
 D:\Học tập\Công nghệ.Net\New folder (3)\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.pdb
 D:\Học tập\Công nghệ.Net\New folder (3)\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Nhansu.resources
 D:\Học tập\Công nghệ.Net\New folder (3)\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Baocaodoanhthu.resources
+D:\Học tập\Công nghệ.Net\New folder (3)\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.BCdanhsachkhambenh.resources
+D:\Học tập\Công nghệ.Net\New folder (3)\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.BCdoanhthudichvu.resources

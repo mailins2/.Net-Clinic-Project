@@ -27,9 +27,10 @@ namespace Clinic_Software
             //Application.Run(new LichHen());
             //Application.Run(new XemLichHen());
             //Application.Run(new DangKyLichHen());
-            Application.Run(new Nhansu());
-            Application.Run(new Baocaodoanhthu());
-
+            //Application.Run(new Nhansu());
+            //Application.Run(new Baocaodoanhthu());
+            //Application.Run(new BCdanhsachkhambenh());
+            Application.Run(new BCdoanhthudichvu());
         }
     }
 }
