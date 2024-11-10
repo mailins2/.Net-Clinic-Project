@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Clinic_Software
 {
-    public partial class DienThongTinBenhNhan : Form
+    public partial class DangKyLichHen : Form
     {
-        public DienThongTinBenhNhan()
+        public DangKyLichHen()
         {
             InitializeComponent();
         }

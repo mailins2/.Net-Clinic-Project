@@ -52,17 +52,17 @@
     <Compile Include="BacSi.Designer.cs">
       <DependentUpon>BacSi.cs</DependentUpon>
     </Compile>
+    <Compile Include="DangKyLichHen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangKyLichHen.Designer.cs">
+      <DependentUpon>DangKyLichHen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dangnhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dangnhap.Designer.cs">
       <DependentUpon>Dangnhap.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DienThongTinBenhNhan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DienThongTinBenhNhan.Designer.cs">
-      <DependentUpon>DienThongTinBenhNhan.cs</DependentUpon>
     </Compile>
     <Compile Include="Doimatkhau.cs">
       <SubType>Form</SubType>
@@ -94,6 +94,12 @@
     <Compile Include="KhamBenh.Designer.cs">
       <DependentUpon>KhamBenh.cs</DependentUpon>
     </Compile>
+    <Compile Include="LichHen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LichHen.Designer.cs">
+      <DependentUpon>LichHen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThongTinKhamBenh.cs">
@@ -102,14 +108,20 @@
     <Compile Include="ThongTinKhamBenh.Designer.cs">
       <DependentUpon>ThongTinKhamBenh.cs</DependentUpon>
     </Compile>
+    <Compile Include="XemLichHen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XemLichHen.Designer.cs">
+      <DependentUpon>XemLichHen.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BacSi.resx">
       <DependentUpon>BacSi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DangKyLichHen.resx">
+      <DependentUpon>DangKyLichHen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dangnhap.resx">
       <DependentUpon>Dangnhap.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DienThongTinBenhNhan.resx">
-      <DependentUpon>DienThongTinBenhNhan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Doimatkhau.resx">
       <DependentUpon>Doimatkhau.cs</DependentUpon>
@@ -126,6 +138,9 @@
     <EmbeddedResource Include="KhamBenh.resx">
       <DependentUpon>KhamBenh.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LichHen.resx">
+      <DependentUpon>LichHen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -138,6 +153,9 @@
     </Compile>
     <EmbeddedResource Include="ThongTinKhamBenh.resx">
       <DependentUpon>ThongTinKhamBenh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XemLichHen.resx">
+      <DependentUpon>XemLichHen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

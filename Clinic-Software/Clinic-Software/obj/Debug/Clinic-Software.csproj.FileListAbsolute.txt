@@ -73,3 +73,23 @@ D:\Học tập\Công nghệ.Net\New folder (2)\.Net-Clinic-Project\Clinic-Softwa
 D:\Học tập\Công nghệ.Net\New folder (2)\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.exe
 D:\Học tập\Công nghệ.Net\New folder (2)\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.pdb
 D:\Học tập\Công nghệ.Net\New folder (2)\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Doimatkhau.resources
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe.config
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.pdb
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.AssemblyReference.cache
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.BacSi.resources
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Dangnhap.resources
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Doimatkhau.resources
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Homepage.resources
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.KeDichVu.resources
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.KeDonThuoc.resources
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.KhamBenh.resources
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Properties.Resources.resources
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.ThongTinKhamBenh.resources
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.GenerateResource.cache
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.CoreCompileInputs.cache
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.exe
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.pdb
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.DangKyLichHen.resources
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.LichHen.resources
+E:\new\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.XemLichHen.resources
