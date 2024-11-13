@@ -1,0 +1,6 @@
+C:\Users\nguye\source\Github\.Net-Clinic-Project\Clinic-Software\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\nguye\source\Github\.Net-Clinic-Project\Clinic-Software\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\nguye\source\Github\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\nguye\source\Github\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\nguye\source\Github\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\nguye\source\Github\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.pdb

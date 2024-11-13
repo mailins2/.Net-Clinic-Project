@@ -176,7 +176,7 @@ namespace Clinic_Software
             this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(29, 37);
+            this.toolStripButton2.Size = new System.Drawing.Size(46, 56);
             this.toolStripButton2.Text = "toolStripButton2";
             // 
             // toolStrip1
@@ -190,7 +190,8 @@ namespace Clinic_Software
             this.toolStripButton3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(743, 40);
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
+            this.toolStrip1.Size = new System.Drawing.Size(1116, 62);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -200,7 +201,7 @@ namespace Clinic_Software
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(29, 37);
+            this.toolStripButton1.Size = new System.Drawing.Size(46, 56);
             this.toolStripButton1.Text = "toolStripButton1";
             // 
             // toolStripButton3
@@ -211,7 +212,7 @@ namespace Clinic_Software
             this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(167, 37);
+            this.toolStripButton3.Size = new System.Drawing.Size(271, 56);
             this.toolStripButton3.Text = "Thông tin đăng ký ";
             // 
             // button7
@@ -223,10 +224,10 @@ namespace Clinic_Software
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button7.Location = new System.Drawing.Point(524, 0);
-            this.button7.Margin = new System.Windows.Forms.Padding(15);
+            this.button7.Location = new System.Drawing.Point(790, 0);
+            this.button7.Margin = new System.Windows.Forms.Padding(22, 23, 22, 23);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(63, 34);
+            this.button7.Size = new System.Drawing.Size(94, 52);
             this.button7.TabIndex = 3;
             this.button7.Text = "Thêm ";
             this.button7.UseVisualStyleBackColor = false;
@@ -239,9 +240,10 @@ namespace Clinic_Software
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button6.Location = new System.Drawing.Point(587, 0);
+            this.button6.Location = new System.Drawing.Point(884, 0);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 34);
+            this.button6.Size = new System.Drawing.Size(112, 52);
             this.button6.TabIndex = 2;
             this.button6.Text = "Lưu ";
             this.button6.UseVisualStyleBackColor = false;
@@ -254,9 +256,10 @@ namespace Clinic_Software
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button5.Location = new System.Drawing.Point(662, 0);
+            this.button5.Location = new System.Drawing.Point(996, 0);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 34);
+            this.button5.Size = new System.Drawing.Size(112, 52);
             this.button5.TabIndex = 1;
             this.button5.Text = "Xóa ";
             this.button5.UseVisualStyleBackColor = false;
@@ -268,8 +271,9 @@ namespace Clinic_Software
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.RoyalBlue;
             this.button4.Location = new System.Drawing.Point(0, 0);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(289, 34);
+            this.button4.Size = new System.Drawing.Size(434, 52);
             this.button4.TabIndex = 0;
             this.button4.Text = "Bạn đang xem thông tin lịch hẹn ";
             this.button4.UseVisualStyleBackColor = false;
@@ -279,8 +283,9 @@ namespace Clinic_Software
             this.panel12.Controls.Add(this.button4);
             this.panel12.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel12.Location = new System.Drawing.Point(0, 0);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(289, 34);
+            this.panel12.Size = new System.Drawing.Size(434, 52);
             this.panel12.TabIndex = 0;
             // 
             // panel9
@@ -290,9 +295,10 @@ namespace Clinic_Software
             this.panel9.Controls.Add(this.button5);
             this.panel9.Controls.Add(this.panel12);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel9.Location = new System.Drawing.Point(3, 43);
+            this.panel9.Location = new System.Drawing.Point(4, 67);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(737, 34);
+            this.panel9.Size = new System.Drawing.Size(1108, 52);
             this.panel9.TabIndex = 5;
             // 
             // textBox12
@@ -301,11 +307,12 @@ namespace Clinic_Software
             this.textBox12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox12.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox12.Location = new System.Drawing.Point(3, 3);
+            this.textBox12.Location = new System.Drawing.Point(4, 5);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox12.MaxLength = 500;
             this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(713, 41);
+            this.textBox12.Size = new System.Drawing.Size(1076, 60);
             this.textBox12.TabIndex = 3;
             this.textBox12.Text = "Nhập địa chỉ  ";
             // 
@@ -315,11 +322,12 @@ namespace Clinic_Software
             this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75F));
             this.tableLayoutPanel16.Controls.Add(this.textBox12, 0, 0);
             this.tableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel16.Location = new System.Drawing.Point(3, 18);
+            this.tableLayoutPanel16.Location = new System.Drawing.Point(4, 29);
+            this.tableLayoutPanel16.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel16.Name = "tableLayoutPanel16";
             this.tableLayoutPanel16.RowCount = 1;
             this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel16.Size = new System.Drawing.Size(719, 47);
+            this.tableLayoutPanel16.Size = new System.Drawing.Size(1084, 70);
             this.tableLayoutPanel16.TabIndex = 0;
             // 
             // groupBox18
@@ -328,9 +336,11 @@ namespace Clinic_Software
             this.groupBox18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox18.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.groupBox18.Location = new System.Drawing.Point(3, 147);
+            this.groupBox18.Location = new System.Drawing.Point(4, 231);
+            this.groupBox18.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox18.Name = "groupBox18";
-            this.groupBox18.Size = new System.Drawing.Size(725, 68);
+            this.groupBox18.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox18.Size = new System.Drawing.Size(1092, 104);
             this.groupBox18.TabIndex = 7;
             this.groupBox18.TabStop = false;
             this.groupBox18.Text = "Địa chỉ ";
@@ -341,11 +351,12 @@ namespace Clinic_Software
             this.textBox8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox8.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox8.Location = new System.Drawing.Point(3, 18);
+            this.textBox8.Location = new System.Drawing.Point(4, 29);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox8.MaxLength = 500;
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(62, 39);
+            this.textBox8.Size = new System.Drawing.Size(95, 59);
             this.textBox8.TabIndex = 1;
             this.textBox8.Text = "Nhập tuổi ";
             // 
@@ -355,9 +366,11 @@ namespace Clinic_Software
             this.groupBox13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox13.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.groupBox13.Location = new System.Drawing.Point(654, 3);
+            this.groupBox13.Location = new System.Drawing.Point(985, 5);
+            this.groupBox13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(68, 60);
+            this.groupBox13.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox13.Size = new System.Drawing.Size(103, 93);
             this.groupBox13.TabIndex = 3;
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "Tuổi";
@@ -366,9 +379,10 @@ namespace Clinic_Software
             // 
             this.dateTimePicker3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker3.Location = new System.Drawing.Point(3, 18);
+            this.dateTimePicker3.Location = new System.Drawing.Point(4, 29);
+            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(123, 22);
+            this.dateTimePicker3.Size = new System.Drawing.Size(188, 31);
             this.dateTimePicker3.TabIndex = 1;
             // 
             // groupBox12
@@ -377,9 +391,11 @@ namespace Clinic_Software
             this.groupBox12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox12.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.groupBox12.Location = new System.Drawing.Point(519, 3);
+            this.groupBox12.Location = new System.Drawing.Point(781, 5);
+            this.groupBox12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(129, 60);
+            this.groupBox12.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox12.Size = new System.Drawing.Size(196, 93);
             this.groupBox12.TabIndex = 2;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Ngày sinh ";
@@ -390,11 +406,12 @@ namespace Clinic_Software
             this.textBox6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox6.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox6.Location = new System.Drawing.Point(3, 18);
+            this.textBox6.Location = new System.Drawing.Point(4, 29);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox6.MaxLength = 500;
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(187, 39);
+            this.textBox6.Size = new System.Drawing.Size(284, 59);
             this.textBox6.TabIndex = 4;
             this.textBox6.Text = "Nhập họ tên  ";
             // 
@@ -404,9 +421,11 @@ namespace Clinic_Software
             this.groupBox11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox11.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.groupBox11.Location = new System.Drawing.Point(320, 3);
+            this.groupBox11.Location = new System.Drawing.Point(481, 5);
+            this.groupBox11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(193, 60);
+            this.groupBox11.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox11.Size = new System.Drawing.Size(292, 93);
             this.groupBox11.TabIndex = 1;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Họ tên ";
@@ -417,11 +436,12 @@ namespace Clinic_Software
             this.textBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox5.Location = new System.Drawing.Point(3, 3);
+            this.textBox5.Location = new System.Drawing.Point(4, 5);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox5.MaxLength = 500;
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(222, 33);
+            this.textBox5.Size = new System.Drawing.Size(337, 49);
             this.textBox5.TabIndex = 3;
             this.textBox5.Text = "Nhập mã bệnh nhân ";
             // 
@@ -430,11 +450,12 @@ namespace Clinic_Software
             this.dataGridView2.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView2.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView2.Location = new System.Drawing.Point(4, 5);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(725, 164);
+            this.dataGridView2.Size = new System.Drawing.Size(1092, 256);
             this.dataGridView2.TabIndex = 0;
             // 
             // button8
@@ -443,9 +464,10 @@ namespace Clinic_Software
             this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button8.Location = new System.Drawing.Point(231, 3);
+            this.button8.Location = new System.Drawing.Point(349, 5);
+            this.button8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(71, 33);
+            this.button8.Size = new System.Drawing.Size(108, 49);
             this.button8.TabIndex = 5;
             this.button8.Text = "Tìm kiếm ";
             this.button8.UseVisualStyleBackColor = false;
@@ -456,11 +478,12 @@ namespace Clinic_Software
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel7.Controls.Add(this.dataGridView2, 0, 0);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 23);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(4, 36);
+            this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 170F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(731, 170);
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 266F));
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(1100, 264);
             this.tableLayoutPanel7.TabIndex = 0;
             // 
             // checkBox1
@@ -469,9 +492,10 @@ namespace Clinic_Software
             this.checkBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.checkBox1.Location = new System.Drawing.Point(607, 3);
+            this.checkBox1.Location = new System.Drawing.Point(914, 5);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(115, 68);
+            this.checkBox1.Size = new System.Drawing.Size(174, 105);
             this.checkBox1.TabIndex = 2;
             this.checkBox1.Text = "Ưu tiên ";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -479,9 +503,10 @@ namespace Clinic_Software
             // richTextBox4
             // 
             this.richTextBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox4.Location = new System.Drawing.Point(3, 3);
+            this.richTextBox4.Location = new System.Drawing.Point(4, 5);
+            this.richTextBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(344, 99);
+            this.richTextBox4.Size = new System.Drawing.Size(522, 151);
             this.richTextBox4.TabIndex = 0;
             this.richTextBox4.Text = "";
             // 
@@ -490,16 +515,17 @@ namespace Clinic_Software
             this.tableLayoutPanel20.ColumnCount = 3;
             this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 121F));
+            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 182F));
             this.tableLayoutPanel20.Controls.Add(this.groupBox24, 1, 0);
             this.tableLayoutPanel20.Controls.Add(this.groupBox25, 0, 0);
             this.tableLayoutPanel20.Controls.Add(this.checkBox1, 2, 0);
             this.tableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel20.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel20.Location = new System.Drawing.Point(4, 5);
+            this.tableLayoutPanel20.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel20.Name = "tableLayoutPanel20";
             this.tableLayoutPanel20.RowCount = 1;
             this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel20.Size = new System.Drawing.Size(725, 74);
+            this.tableLayoutPanel20.Size = new System.Drawing.Size(1092, 115);
             this.tableLayoutPanel20.TabIndex = 2;
             // 
             // groupBox24
@@ -508,9 +534,11 @@ namespace Clinic_Software
             this.groupBox24.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox24.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.groupBox24.Location = new System.Drawing.Point(305, 3);
+            this.groupBox24.Location = new System.Drawing.Point(459, 5);
+            this.groupBox24.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox24.Name = "groupBox24";
-            this.groupBox24.Size = new System.Drawing.Size(296, 68);
+            this.groupBox24.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox24.Size = new System.Drawing.Size(447, 105);
             this.groupBox24.TabIndex = 1;
             this.groupBox24.TabStop = false;
             this.groupBox24.Text = "Ngày đăng ký ";
@@ -519,9 +547,10 @@ namespace Clinic_Software
             // 
             this.dateTimePicker4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker4.Location = new System.Drawing.Point(3, 18);
+            this.dateTimePicker4.Location = new System.Drawing.Point(4, 29);
+            this.dateTimePicker4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(290, 22);
+            this.dateTimePicker4.Size = new System.Drawing.Size(439, 31);
             this.dateTimePicker4.TabIndex = 2;
             // 
             // groupBox25
@@ -530,9 +559,11 @@ namespace Clinic_Software
             this.groupBox25.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox25.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.groupBox25.Location = new System.Drawing.Point(3, 3);
+            this.groupBox25.Location = new System.Drawing.Point(4, 5);
+            this.groupBox25.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox25.Name = "groupBox25";
-            this.groupBox25.Size = new System.Drawing.Size(296, 68);
+            this.groupBox25.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox25.Size = new System.Drawing.Size(447, 105);
             this.groupBox25.TabIndex = 0;
             this.groupBox25.TabStop = false;
             this.groupBox25.Text = "Mã dịch vụ  ";
@@ -543,11 +574,12 @@ namespace Clinic_Software
             this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75F));
             this.tableLayoutPanel21.Controls.Add(this.textBox7, 0, 0);
             this.tableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel21.Location = new System.Drawing.Point(3, 18);
+            this.tableLayoutPanel21.Location = new System.Drawing.Point(4, 29);
+            this.tableLayoutPanel21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel21.Name = "tableLayoutPanel21";
             this.tableLayoutPanel21.RowCount = 1;
             this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel21.Size = new System.Drawing.Size(290, 47);
+            this.tableLayoutPanel21.Size = new System.Drawing.Size(439, 71);
             this.tableLayoutPanel21.TabIndex = 0;
             // 
             // textBox7
@@ -556,11 +588,12 @@ namespace Clinic_Software
             this.textBox7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox7.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox7.Location = new System.Drawing.Point(3, 3);
+            this.textBox7.Location = new System.Drawing.Point(4, 5);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox7.MaxLength = 500;
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(284, 41);
+            this.textBox7.Size = new System.Drawing.Size(431, 61);
             this.textBox7.TabIndex = 3;
             this.textBox7.Text = "Nhập mã lịch hẹn ";
             // 
@@ -570,11 +603,12 @@ namespace Clinic_Software
             this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75F));
             this.tableLayoutPanel25.Controls.Add(this.richTextBox4, 0, 0);
             this.tableLayoutPanel25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel25.Location = new System.Drawing.Point(3, 18);
+            this.tableLayoutPanel25.Location = new System.Drawing.Point(4, 29);
+            this.tableLayoutPanel25.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel25.Name = "tableLayoutPanel25";
             this.tableLayoutPanel25.RowCount = 1;
             this.tableLayoutPanel25.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel25.Size = new System.Drawing.Size(350, 105);
+            this.tableLayoutPanel25.Size = new System.Drawing.Size(530, 161);
             this.tableLayoutPanel25.TabIndex = 0;
             // 
             // groupBox28
@@ -583,9 +617,11 @@ namespace Clinic_Software
             this.groupBox28.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox28.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.groupBox28.Location = new System.Drawing.Point(3, 3);
+            this.groupBox28.Location = new System.Drawing.Point(4, 5);
+            this.groupBox28.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox28.Name = "groupBox28";
-            this.groupBox28.Size = new System.Drawing.Size(356, 126);
+            this.groupBox28.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox28.Size = new System.Drawing.Size(538, 195);
             this.groupBox28.TabIndex = 1;
             this.groupBox28.TabStop = false;
             this.groupBox28.Text = "Triệu chứng ";
@@ -593,9 +629,10 @@ namespace Clinic_Software
             // richTextBox3
             // 
             this.richTextBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox3.Location = new System.Drawing.Point(3, 3);
+            this.richTextBox3.Location = new System.Drawing.Point(4, 5);
+            this.richTextBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(345, 99);
+            this.richTextBox3.Size = new System.Drawing.Size(522, 151);
             this.richTextBox3.TabIndex = 1;
             this.richTextBox3.Text = "";
             // 
@@ -605,11 +642,12 @@ namespace Clinic_Software
             this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75F));
             this.tableLayoutPanel24.Controls.Add(this.richTextBox3, 0, 0);
             this.tableLayoutPanel24.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel24.Location = new System.Drawing.Point(3, 18);
+            this.tableLayoutPanel24.Location = new System.Drawing.Point(4, 29);
+            this.tableLayoutPanel24.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel24.Name = "tableLayoutPanel24";
             this.tableLayoutPanel24.RowCount = 1;
             this.tableLayoutPanel24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel24.Size = new System.Drawing.Size(351, 105);
+            this.tableLayoutPanel24.Size = new System.Drawing.Size(530, 161);
             this.tableLayoutPanel24.TabIndex = 0;
             // 
             // groupBox27
@@ -618,9 +656,11 @@ namespace Clinic_Software
             this.groupBox27.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox27.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.groupBox27.Location = new System.Drawing.Point(365, 3);
+            this.groupBox27.Location = new System.Drawing.Point(550, 5);
+            this.groupBox27.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox27.Name = "groupBox27";
-            this.groupBox27.Size = new System.Drawing.Size(357, 126);
+            this.groupBox27.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox27.Size = new System.Drawing.Size(538, 195);
             this.groupBox27.TabIndex = 2;
             this.groupBox27.TabStop = false;
             this.groupBox27.Text = "Ghi chú ";
@@ -633,11 +673,12 @@ namespace Clinic_Software
             this.tableLayoutPanel23.Controls.Add(this.groupBox27, 0, 0);
             this.tableLayoutPanel23.Controls.Add(this.groupBox28, 0, 0);
             this.tableLayoutPanel23.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel23.Location = new System.Drawing.Point(3, 83);
+            this.tableLayoutPanel23.Location = new System.Drawing.Point(4, 130);
+            this.tableLayoutPanel23.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel23.Name = "tableLayoutPanel23";
             this.tableLayoutPanel23.RowCount = 1;
             this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel23.Size = new System.Drawing.Size(725, 132);
+            this.tableLayoutPanel23.Size = new System.Drawing.Size(1092, 205);
             this.tableLayoutPanel23.TabIndex = 3;
             // 
             // tableLayoutPanel19
@@ -647,12 +688,13 @@ namespace Clinic_Software
             this.tableLayoutPanel19.Controls.Add(this.tableLayoutPanel20, 0, 0);
             this.tableLayoutPanel19.Controls.Add(this.tableLayoutPanel23, 0, 1);
             this.tableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel19.Location = new System.Drawing.Point(3, 23);
+            this.tableLayoutPanel19.Location = new System.Drawing.Point(4, 36);
+            this.tableLayoutPanel19.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel19.Name = "tableLayoutPanel19";
             this.tableLayoutPanel19.RowCount = 2;
-            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 125F));
             this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel19.Size = new System.Drawing.Size(731, 218);
+            this.tableLayoutPanel19.Size = new System.Drawing.Size(1100, 340);
             this.tableLayoutPanel19.TabIndex = 0;
             // 
             // groupBox22
@@ -661,9 +703,11 @@ namespace Clinic_Software
             this.groupBox22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox22.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.groupBox22.Location = new System.Drawing.Point(3, 333);
+            this.groupBox22.Location = new System.Drawing.Point(4, 520);
+            this.groupBox22.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox22.Name = "groupBox22";
-            this.groupBox22.Size = new System.Drawing.Size(737, 244);
+            this.groupBox22.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox22.Size = new System.Drawing.Size(1108, 381);
             this.groupBox22.TabIndex = 9;
             this.groupBox22.TabStop = false;
             this.groupBox22.Text = "2. Thông tin đăng ký  ";
@@ -674,9 +718,11 @@ namespace Clinic_Software
             this.groupBox8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox8.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.groupBox8.Location = new System.Drawing.Point(3, 583);
+            this.groupBox8.Location = new System.Drawing.Point(4, 911);
+            this.groupBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(737, 196);
+            this.groupBox8.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox8.Size = new System.Drawing.Size(1108, 305);
             this.groupBox8.TabIndex = 8;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "3. Thông tin lịch sử khám  ";
@@ -689,11 +735,12 @@ namespace Clinic_Software
             this.tableLayoutPanel10.Controls.Add(this.button8, 0, 0);
             this.tableLayoutPanel10.Controls.Add(this.textBox5, 0, 0);
             this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 18);
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(4, 29);
+            this.tableLayoutPanel10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel10.Name = "tableLayoutPanel10";
             this.tableLayoutPanel10.RowCount = 1;
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(305, 39);
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(461, 59);
             this.tableLayoutPanel10.TabIndex = 0;
             // 
             // tableLayoutPanel5
@@ -706,15 +753,16 @@ namespace Clinic_Software
             this.tableLayoutPanel5.Controls.Add(this.panel9, 0, 1);
             this.tableLayoutPanel5.Controls.Add(this.groupBox7, 0, 2);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(4, 5);
+            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 4;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 250F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 250F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(743, 782);
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 391F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 391F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 12F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(1116, 1221);
             this.tableLayoutPanel5.TabIndex = 4;
             // 
             // groupBox7
@@ -723,9 +771,11 @@ namespace Clinic_Software
             this.groupBox7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox7.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.groupBox7.Location = new System.Drawing.Point(3, 83);
+            this.groupBox7.Location = new System.Drawing.Point(4, 129);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(737, 244);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox7.Size = new System.Drawing.Size(1108, 381);
             this.groupBox7.TabIndex = 6;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "1. Thông tin người đăng ký ";
@@ -738,13 +788,14 @@ namespace Clinic_Software
             this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel9, 0, 0);
             this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel11, 0, 1);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 23);
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(4, 36);
+            this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 3;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(731, 218);
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(1100, 340);
             this.tableLayoutPanel8.TabIndex = 0;
             // 
             // tableLayoutPanel9
@@ -759,11 +810,12 @@ namespace Clinic_Software
             this.tableLayoutPanel9.Controls.Add(this.groupBox11, 1, 0);
             this.tableLayoutPanel9.Controls.Add(this.groupBox10, 0, 0);
             this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(4, 5);
+            this.tableLayoutPanel9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
             this.tableLayoutPanel9.RowCount = 1;
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(725, 66);
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(1092, 103);
             this.tableLayoutPanel9.TabIndex = 0;
             // 
             // groupBox10
@@ -772,9 +824,11 @@ namespace Clinic_Software
             this.groupBox10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox10.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.groupBox10.Location = new System.Drawing.Point(3, 3);
+            this.groupBox10.Location = new System.Drawing.Point(4, 5);
+            this.groupBox10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(311, 60);
+            this.groupBox10.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox10.Size = new System.Drawing.Size(469, 93);
             this.groupBox10.TabIndex = 0;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Mã bệnh nhân ";
@@ -786,17 +840,18 @@ namespace Clinic_Software
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.77778F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel11.Controls.Add(this.groupBox26, 0, 0);
             this.tableLayoutPanel11.Controls.Add(this.groupBox16, 0, 0);
             this.tableLayoutPanel11.Controls.Add(this.groupBox15, 0, 0);
             this.tableLayoutPanel11.Controls.Add(this.groupBox14, 0, 0);
             this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 75);
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(4, 118);
+            this.tableLayoutPanel11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel11.Name = "tableLayoutPanel11";
             this.tableLayoutPanel11.RowCount = 1;
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(725, 66);
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(1092, 103);
             this.tableLayoutPanel11.TabIndex = 1;
             // 
             // groupBox26
@@ -805,9 +860,11 @@ namespace Clinic_Software
             this.groupBox26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox26.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.groupBox26.Location = new System.Drawing.Point(404, 3);
+            this.groupBox26.Location = new System.Drawing.Point(610, 5);
+            this.groupBox26.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox26.Name = "groupBox26";
-            this.groupBox26.Size = new System.Drawing.Size(114, 60);
+            this.groupBox26.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox26.Size = new System.Drawing.Size(174, 93);
             this.groupBox26.TabIndex = 7;
             this.groupBox26.TabStop = false;
             this.groupBox26.Text = "Mã lịch hẹn  ";
@@ -818,11 +875,12 @@ namespace Clinic_Software
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75F));
             this.tableLayoutPanel22.Controls.Add(this.textBox11, 0, 0);
             this.tableLayoutPanel22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel22.Location = new System.Drawing.Point(3, 18);
+            this.tableLayoutPanel22.Location = new System.Drawing.Point(4, 29);
+            this.tableLayoutPanel22.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel22.Name = "tableLayoutPanel22";
             this.tableLayoutPanel22.RowCount = 1;
             this.tableLayoutPanel22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel22.Size = new System.Drawing.Size(108, 39);
+            this.tableLayoutPanel22.Size = new System.Drawing.Size(166, 59);
             this.tableLayoutPanel22.TabIndex = 0;
             // 
             // textBox11
@@ -831,11 +889,12 @@ namespace Clinic_Software
             this.textBox11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox11.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox11.Location = new System.Drawing.Point(3, 3);
+            this.textBox11.Location = new System.Drawing.Point(4, 5);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox11.MaxLength = 500;
             this.textBox11.Multiline = true;
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(102, 33);
+            this.textBox11.Size = new System.Drawing.Size(158, 49);
             this.textBox11.TabIndex = 3;
             this.textBox11.Text = "Nhập mã lịch hẹn ";
             // 
@@ -845,9 +904,11 @@ namespace Clinic_Software
             this.groupBox16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox16.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.groupBox16.Location = new System.Drawing.Point(524, 3);
+            this.groupBox16.Location = new System.Drawing.Point(792, 5);
+            this.groupBox16.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Size = new System.Drawing.Size(198, 60);
+            this.groupBox16.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox16.Size = new System.Drawing.Size(296, 93);
             this.groupBox16.TabIndex = 6;
             this.groupBox16.TabStop = false;
             this.groupBox16.Text = "Tài khoản ";
@@ -858,11 +919,12 @@ namespace Clinic_Software
             this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75F));
             this.tableLayoutPanel13.Controls.Add(this.textBox10, 0, 0);
             this.tableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel13.Location = new System.Drawing.Point(3, 18);
+            this.tableLayoutPanel13.Location = new System.Drawing.Point(4, 29);
+            this.tableLayoutPanel13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel13.Name = "tableLayoutPanel13";
             this.tableLayoutPanel13.RowCount = 1;
             this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel13.Size = new System.Drawing.Size(192, 39);
+            this.tableLayoutPanel13.Size = new System.Drawing.Size(288, 59);
             this.tableLayoutPanel13.TabIndex = 0;
             // 
             // textBox10
@@ -871,11 +933,12 @@ namespace Clinic_Software
             this.textBox10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox10.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox10.Location = new System.Drawing.Point(3, 3);
+            this.textBox10.Location = new System.Drawing.Point(4, 5);
+            this.textBox10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox10.MaxLength = 500;
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(186, 33);
+            this.textBox10.Size = new System.Drawing.Size(280, 49);
             this.textBox10.TabIndex = 3;
             this.textBox10.Text = "Nhập số tài khoản ";
             // 
@@ -885,9 +948,11 @@ namespace Clinic_Software
             this.groupBox15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox15.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.groupBox15.Location = new System.Drawing.Point(3, 3);
+            this.groupBox15.Location = new System.Drawing.Point(4, 5);
+            this.groupBox15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(275, 60);
+            this.groupBox15.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox15.Size = new System.Drawing.Size(416, 93);
             this.groupBox15.TabIndex = 5;
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "Giới tính ";
@@ -898,11 +963,12 @@ namespace Clinic_Software
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75F));
             this.tableLayoutPanel12.Controls.Add(this.comboBox1, 0, 0);
             this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel12.Location = new System.Drawing.Point(3, 18);
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(4, 29);
+            this.tableLayoutPanel12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel12.Name = "tableLayoutPanel12";
             this.tableLayoutPanel12.RowCount = 1;
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(269, 39);
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(408, 59);
             this.tableLayoutPanel12.TabIndex = 0;
             // 
             // comboBox1
@@ -912,9 +978,10 @@ namespace Clinic_Software
             this.comboBox1.Items.AddRange(new object[] {
             "Nam ",
             "Nữ"});
-            this.comboBox1.Location = new System.Drawing.Point(3, 3);
+            this.comboBox1.Location = new System.Drawing.Point(4, 5);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(263, 24);
+            this.comboBox1.Size = new System.Drawing.Size(400, 33);
             this.comboBox1.TabIndex = 0;
             // 
             // groupBox14
@@ -923,9 +990,11 @@ namespace Clinic_Software
             this.groupBox14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox14.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.groupBox14.Location = new System.Drawing.Point(284, 3);
+            this.groupBox14.Location = new System.Drawing.Point(428, 5);
+            this.groupBox14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(114, 60);
+            this.groupBox14.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox14.Size = new System.Drawing.Size(174, 93);
             this.groupBox14.TabIndex = 4;
             this.groupBox14.TabStop = false;
             this.groupBox14.Text = "Điện thoại ";
@@ -936,11 +1005,12 @@ namespace Clinic_Software
             this.textBox9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox9.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox9.Location = new System.Drawing.Point(3, 18);
+            this.textBox9.Location = new System.Drawing.Point(4, 29);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox9.MaxLength = 500;
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(108, 39);
+            this.textBox9.Size = new System.Drawing.Size(166, 59);
             this.textBox9.TabIndex = 1;
             this.textBox9.Text = "Nhập số điện thoại ";
             // 
@@ -950,11 +1020,12 @@ namespace Clinic_Software
             this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox2.Location = new System.Drawing.Point(3, 23);
+            this.textBox2.Location = new System.Drawing.Point(4, 36);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.MaxLength = 500;
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(216, 58);
+            this.textBox2.Size = new System.Drawing.Size(327, 90);
             this.textBox2.TabIndex = 0;
             this.textBox2.Text = "Nhập mã bệnh nhân ";
             // 
@@ -964,9 +1035,11 @@ namespace Clinic_Software
             this.groupBox6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox6.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.groupBox6.Location = new System.Drawing.Point(3, 183);
+            this.groupBox6.Location = new System.Drawing.Point(4, 287);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(222, 84);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox6.Size = new System.Drawing.Size(335, 131);
             this.groupBox6.TabIndex = 8;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Từ ngày ";
@@ -975,9 +1048,10 @@ namespace Clinic_Software
             // 
             this.dateTimePicker1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(3, 23);
+            this.dateTimePicker1.Location = new System.Drawing.Point(4, 36);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(216, 27);
+            this.dateTimePicker1.Size = new System.Drawing.Size(327, 38);
             this.dateTimePicker1.TabIndex = 0;
             // 
             // textBox4
@@ -986,11 +1060,12 @@ namespace Clinic_Software
             this.textBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox4.Location = new System.Drawing.Point(3, 23);
+            this.textBox4.Location = new System.Drawing.Point(4, 36);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox4.MaxLength = 500;
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(216, 58);
+            this.textBox4.Size = new System.Drawing.Size(327, 90);
             this.textBox4.TabIndex = 0;
             this.textBox4.Text = "Nhập trạng thái ";
             // 
@@ -1000,11 +1075,12 @@ namespace Clinic_Software
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox1.Location = new System.Drawing.Point(3, 23);
+            this.textBox1.Location = new System.Drawing.Point(4, 36);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.MaxLength = 500;
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(217, 58);
+            this.textBox1.Size = new System.Drawing.Size(328, 90);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "Nhập mã dịch vụ  ";
             // 
@@ -1020,13 +1096,14 @@ namespace Clinic_Software
             this.tableLayoutPanel3.Controls.Add(this.groupBox4, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.groupBox1, 0, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 5);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 3;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 90F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 90F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 90F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(457, 267);
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 141F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 141F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 141F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(687, 417);
             this.tableLayoutPanel3.TabIndex = 1;
             // 
             // groupBox5
@@ -1035,9 +1112,11 @@ namespace Clinic_Software
             this.groupBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.groupBox5.Location = new System.Drawing.Point(231, 183);
+            this.groupBox5.Location = new System.Drawing.Point(347, 287);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(223, 84);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox5.Size = new System.Drawing.Size(336, 131);
             this.groupBox5.TabIndex = 7;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Đến ngày ";
@@ -1046,9 +1125,10 @@ namespace Clinic_Software
             // 
             this.dateTimePicker2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker2.Location = new System.Drawing.Point(3, 23);
+            this.dateTimePicker2.Location = new System.Drawing.Point(4, 36);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(217, 27);
+            this.dateTimePicker2.Size = new System.Drawing.Size(328, 38);
             this.dateTimePicker2.TabIndex = 1;
             // 
             // groupBox3
@@ -1057,9 +1137,11 @@ namespace Clinic_Software
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.groupBox3.Location = new System.Drawing.Point(231, 93);
+            this.groupBox3.Location = new System.Drawing.Point(347, 146);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(223, 84);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox3.Size = new System.Drawing.Size(336, 131);
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Họ tên ";
@@ -1070,11 +1152,12 @@ namespace Clinic_Software
             this.textBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox3.Location = new System.Drawing.Point(3, 23);
+            this.textBox3.Location = new System.Drawing.Point(4, 36);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox3.MaxLength = 500;
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(217, 58);
+            this.textBox3.Size = new System.Drawing.Size(328, 90);
             this.textBox3.TabIndex = 0;
             this.textBox3.Text = "Nhập họ tên ";
             // 
@@ -1084,9 +1167,11 @@ namespace Clinic_Software
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.groupBox2.Location = new System.Drawing.Point(3, 93);
+            this.groupBox2.Location = new System.Drawing.Point(4, 146);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(222, 84);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox2.Size = new System.Drawing.Size(335, 131);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Mã bệnh nhân ";
@@ -1097,9 +1182,11 @@ namespace Clinic_Software
             this.groupBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.groupBox4.Location = new System.Drawing.Point(3, 3);
+            this.groupBox4.Location = new System.Drawing.Point(4, 5);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(222, 84);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox4.Size = new System.Drawing.Size(335, 131);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Trạng thái ";
@@ -1110,9 +1197,11 @@ namespace Clinic_Software
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.groupBox1.Location = new System.Drawing.Point(231, 3);
+            this.groupBox1.Location = new System.Drawing.Point(347, 5);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(223, 84);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Size = new System.Drawing.Size(336, 131);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Mã dịch vụ ";
@@ -1124,8 +1213,9 @@ namespace Clinic_Software
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.Location = new System.Drawing.Point(0, 0);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(50, 44);
+            this.button2.Size = new System.Drawing.Size(75, 68);
             this.button2.TabIndex = 0;
             this.button2.UseVisualStyleBackColor = true;
             // 
@@ -1133,9 +1223,10 @@ namespace Clinic_Software
             // 
             this.panel11.Controls.Add(this.button2);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel11.Location = new System.Drawing.Point(92, 0);
+            this.panel11.Location = new System.Drawing.Point(138, 0);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(50, 44);
+            this.panel11.Size = new System.Drawing.Size(75, 68);
             this.panel11.TabIndex = 2;
             // 
             // button1
@@ -1145,8 +1236,9 @@ namespace Clinic_Software
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(50, 44);
+            this.button1.Size = new System.Drawing.Size(75, 68);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
             // 
@@ -1154,9 +1246,10 @@ namespace Clinic_Software
             // 
             this.panel10.Controls.Add(this.button1);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel10.Location = new System.Drawing.Point(142, 0);
+            this.panel10.Location = new System.Drawing.Point(213, 0);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(50, 44);
+            this.panel10.Size = new System.Drawing.Size(75, 68);
             this.panel10.TabIndex = 1;
             // 
             // button3
@@ -1166,8 +1259,9 @@ namespace Clinic_Software
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.Location = new System.Drawing.Point(0, 0);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(50, 44);
+            this.button3.Size = new System.Drawing.Size(75, 68);
             this.button3.TabIndex = 0;
             this.button3.UseVisualStyleBackColor = true;
             // 
@@ -1175,9 +1269,10 @@ namespace Clinic_Software
             // 
             this.panel8.Controls.Add(this.button3);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel8.Location = new System.Drawing.Point(192, 0);
+            this.panel8.Location = new System.Drawing.Point(288, 0);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(50, 44);
+            this.panel8.Size = new System.Drawing.Size(75, 68);
             this.panel8.TabIndex = 0;
             // 
             // panel7
@@ -1187,9 +1282,10 @@ namespace Clinic_Software
             this.panel7.Controls.Add(this.panel10);
             this.panel7.Controls.Add(this.panel8);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel7.Location = new System.Drawing.Point(209, 0);
+            this.panel7.Location = new System.Drawing.Point(316, 0);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(242, 44);
+            this.panel7.Size = new System.Drawing.Size(363, 68);
             this.panel7.TabIndex = 1;
             // 
             // label2
@@ -1197,9 +1293,10 @@ namespace Clinic_Software
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(34, 14);
+            this.label2.Location = new System.Drawing.Point(51, 22);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(177, 20);
+            this.label2.Size = new System.Drawing.Size(281, 32);
             this.label2.TabIndex = 1;
             this.label2.Text = "Danh sách lịch hẹn ";
             // 
@@ -1209,8 +1306,9 @@ namespace Clinic_Software
             this.panel6.Controls.Add(this.label2);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel6.Location = new System.Drawing.Point(0, 0);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(250, 44);
+            this.panel6.Size = new System.Drawing.Size(375, 68);
             this.panel6.TabIndex = 0;
             // 
             // panel5
@@ -1219,9 +1317,10 @@ namespace Clinic_Software
             this.panel5.Controls.Add(this.panel7);
             this.panel5.Controls.Add(this.panel6);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(3, 3);
+            this.panel5.Location = new System.Drawing.Point(4, 5);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(451, 44);
+            this.panel5.Size = new System.Drawing.Size(679, 68);
             this.panel5.TabIndex = 0;
             // 
             // dataGridView1
@@ -1231,11 +1330,12 @@ namespace Clinic_Software
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.Control;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 53);
+            this.dataGridView1.Location = new System.Drawing.Point(4, 83);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(451, 332);
+            this.dataGridView1.Size = new System.Drawing.Size(679, 517);
             this.dataGridView1.TabIndex = 1;
             // 
             // tableLayoutPanel4
@@ -1245,13 +1345,14 @@ namespace Clinic_Software
             this.tableLayoutPanel4.Controls.Add(this.panel5, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.dataGridView1, 0, 1);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 276);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(4, 432);
+            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 3;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 78F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 74.66548F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.33452F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(457, 503);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(687, 784);
             this.tableLayoutPanel4.TabIndex = 2;
             // 
             // tableLayoutPanel2
@@ -1261,12 +1362,13 @@ namespace Clinic_Software
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel4, 0, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(752, 3);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(1128, 5);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 35F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 65F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(463, 782);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(695, 1221);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // tableLayoutPanel1
@@ -1278,18 +1380,20 @@ namespace Clinic_Software
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1218, 788);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1827, 1231);
             this.tableLayoutPanel1.TabIndex = 3;
             // 
             // DangKyLichHen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1218, 788);
+            this.ClientSize = new System.Drawing.Size(1827, 1231);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "DangKyLichHen";
             this.Text = "DangKyLichHen";
             this.toolStrip1.ResumeLayout(false);

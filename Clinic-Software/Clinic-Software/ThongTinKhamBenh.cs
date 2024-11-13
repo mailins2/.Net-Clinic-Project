@@ -16,5 +16,11 @@ namespace Clinic_Software
         {
             InitializeComponent();
         }
+
+        private void ThongTinKhamBenh_Load(object sender, EventArgs e)
+        {
+            malh.Text = KhamBenh.malh.ToString();
+            dateTimePicker1.Text= string.Empty;
+        }
     }
 }

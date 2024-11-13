@@ -11,6 +11,8 @@ namespace Clinic_Software
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// 
+        public static string LoginID { get; set; }
         [STAThread]
         static void Main()
         {
@@ -19,7 +21,7 @@ namespace Clinic_Software
             //Application.Run(new Homepage());
             //Application.Run(new BacSi());
          
-            //Application.Run(new KhamBenh());
+            Application.Run(new KhamBenh());
             //Application.Run(new ThongTinKhamBenh());
             //Application.Run(new KeDichVu());
             //Application.Run(new Dangnhap());
@@ -30,7 +32,7 @@ namespace Clinic_Software
             //Application.Run(new Nhansu());
             //Application.Run(new Baocaodoanhthu());
             //Application.Run(new BCdanhsachkhambenh());
-            Application.Run(new BCdoanhthudichvu());
+            //Application.Run(new BCdoanhthudichvu());
         }
     }
 }
