@@ -53,8 +53,8 @@ namespace Clinic_Software
 
         private void KhamBenh_Load(object sender, EventArgs e)
         {
-            Program.LoginID = "BS0005";
-            SqlDataAdapter adt = new SqlDataAdapter("SELECT MALH,HOTEN,FORMAT(NGAYHEN,'HH:mm dd/MM/yyyy') FROM LICHHEN,BENHNHAN WHERE BENHNHAN.MABN = LICHHEN.MABN AND MABS = '" + Program.LoginID+"' ORDER BY NGAYHEN",sql.Con);
+            Program.LoginID = "BS0003";
+            SqlDataAdapter adt = new SqlDataAdapter("SELECT MALH,HOTEN,FORMAT(NGAYHEN,'HH:mm dd/MM/yyyy') AS 'NGAYHEN' FROM LICHHEN,BENHNHAN WHERE BENHNHAN.MABN = LICHHEN.MABN AND ngayhen>= GETDATE() AND MABS = '" + Program.LoginID+ "' order by cast(ngayhen as date), cast(ngayhen as time);", sql.Con);
             DataTable dt = new DataTable();
             adt.Fill(dt);
             dataGridViewDsBN.DataSource = dt;

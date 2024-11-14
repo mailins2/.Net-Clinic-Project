@@ -81,7 +81,7 @@
             // 
             // dataGridViewDsBN
             // 
-            this.dataGridViewDsBN.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewDsBN.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -113,6 +113,7 @@
             this.dataGridViewDsBN.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewDsBN.RowHeadersWidth = 20;
             this.dataGridViewDsBN.RowTemplate.Height = 33;
+            this.dataGridViewDsBN.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.dataGridViewDsBN.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewDsBN.Size = new System.Drawing.Size(589, 1033);
             this.dataGridViewDsBN.TabIndex = 1;
