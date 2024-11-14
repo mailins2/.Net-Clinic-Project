@@ -1,4 +1,4 @@
-﻿create database QLPK 
+create database QLPK
 go
 USE QLPK 
 
@@ -126,7 +126,80 @@ ALTER TABLE BENHNHAN ADD CONSTRAINT uq_bn_sdt UNIQUE(SDT);
 ALTER TABLE BACSI ADD CONSTRAINT uq_bs_cccd UNIQUE(CCCD);
 ALTER TABLE BACSI ADD CONSTRAINT uq_bs_sdt UNIQUE(SDT);
 ALTER TABLE BACSI ADD CONSTRAINT uq_bs_email UNIQUE(EMAIL);
+------------------------------------------------------------------------------------
+--kiểm tra ngaykedon phải trùng với ngày khám của bệnh nhân 
+create trigger check_ngay_donthuoc
+	on DONTHUOC
+	after insert, update 
+	as 
+	begin 
+		if exists(select 1
+				  from inserted i 
+				  join LSKHAM ls on ls.maba=i.maba
+				  where i.ngaykedon<>ls.ngaykham
+				  ) 
+				  begin 
+					 RAISERROR ('Ngày trong DONTHUOC phải trùng với ngày khám trong LSKHAM.', 16, 1);
+					 ROLLBACK TRANSACTION;
+				  end 
+	end 
+go
+--kiểm tra xem là ngày trong hoadondv có cùng ngày với lskham của bệnh nhân hay không?
+	create trigger check_ngay_hddv
+	on HOADONDV
+	after insert, update 
+	as 
+	begin 
+		if exists(select 1
+				  from inserted i 
+				  join LSKHAM ls on ls.maba=i.maba
+				  where i.ngay<>ls.ngaykham
+				  ) 
+				  begin 
+					 RAISERROR ('Ngày trong HOADONDV phải trùng với ngày khám trong LSKHAM.', 16, 1);
+					 ROLLBACK TRANSACTION;
+				  end 
+	end 
+go
+ --trigger tính tổng tiền đơn thuốc 
 
+  create trigger Tinh_TongTienDonThuoc
+  on CHITIETDONTHUOC
+  after insert , delete, update 
+  as
+  begin 
+	update DONTHUOC 
+	set tongtien=(select sum (ctdt.soluong*THUOC.dongia)
+				 from CHITIETDONTHUOC ctdt 
+				 join THUOC on THUOC.mat=ctdt.mat
+				 where ctdt.madt=DONTHUOC.madt)
+	where DONTHUOC.madt in (
+		SELECT DISTINCT madt FROM inserted
+		UNION
+		SELECT DISTINCT madt FROM deleted
+	)
+
+  end 
+go
+  --trigger tinh tổng tiền dịch vụ 
+
+ create trigger Tinh_TongTienDV
+  on CHITIETHDDV
+  after insert , delete, update 
+  as
+  begin 
+	update HOADONDV
+	set tongtien=(select sum (cthd.soluong*dv.dongia)
+				 from CHITIETHDDV cthd 
+				 join DICHVU dv on dv.madv=cthd.madv
+				 where cthd.mahddv=HOADONDV.mahddv)
+	where HOADONDV.mahddv in (
+		SELECT DISTINCT mahddv FROM inserted
+		UNION
+		SELECT DISTINCT mahddv FROM deleted
+	)
+	end 
+go
 ----------------------------------------Nhập liệu ------------------------------------------------------------------------------------------------------
 
 --Bảng NHANVIEN
@@ -254,26 +327,6 @@ VALUES  ('DT01', 'BA0001', (SELECT ngaykham FROM LSKHAM WHERE maba = 'BA0001'), 
 		('DT08', 'BA0011', (SELECT ngaykham FROM LSKHAM WHERE maba = 'BA0011'), 0),  -- Tổng tiền dựa trên THUOC 'T08'
 		('DT09', 'BA0012', (SELECT ngaykham FROM LSKHAM WHERE maba = 'BA0012'), 0),  -- Tổng tiền dựa trên THUOC 'T09'
 		('DT10', 'BA0015', (SELECT ngaykham FROM LSKHAM WHERE maba = 'BA0015'), 0); -- Tổng tiền dựa trên THUOC 'T10'
---kiểm tra ngaykedon phải trùng với ngày khám của bệnh nhân 
-create trigger check_ngay_donthuoc
-	on DONTHUOC
-	after insert, update 
-	as 
-	begin 
-		if exists(select 1
-				  from inserted i 
-				  join LSKHAM ls on ls.maba=i.maba
-				  where i.ngaykedon<>ls.ngaykham
-				  ) 
-				  begin 
-					 RAISERROR ('Ngày trong DONTHUOC phải trùng với ngày khám trong LSKHAM.', 16, 1);
-					 ROLLBACK TRANSACTION;
-				  end 
-	end 
-	--test
-	INSERT INTO DONTHUOC (madt, maba, ngaykedon, tongtien)
-	VALUES  ('DT11', 'BA0013', (SELECT ngaykham FROM LSKHAM WHERE maba = 'BA0013'), 0)  -- Tổng tiền dựa trên THUOC 'T01'
-	
 
 --nhập CHITHIETDONTHUOC
 INSERT INTO CHITIETDONTHUOC (madt, mat, lieuluong, soluong)
@@ -295,39 +348,8 @@ VALUES
 	('DT10', 'T09', N'1 lần/ngày', 6),  -- Thuốc 'Adapalene' cho đơn thuốc 'DT10'
 	('DT10', 'T08', N'2 lần/ngày', 8),  -- Thuốc 'Tazarotene' cho đơn thuốc 'DT10'
 	('DT10', 'T05', N'2 lần/ngày', 8)-- Thuốc 'Betamethasone' cho đơn thuốc 'DT10'
---tính tổng tiền đơn thuốc cho mỗi lần bệnh nhân đến khám 
- select sum (ctdt.soluong*THUOC.dongia)
- from CHITIETDONTHUOC ctdt 
- join THUOC on THUOC.mat=ctdt.mat
- where ctdt.madt='DT01'
 
- --
- update DONTHUOC
- set tongtien =(select sum (ctdt.soluong*THUOC.dongia)
-				 from CHITIETDONTHUOC ctdt 
-				 join THUOC on THUOC.mat=ctdt.mat
-				 where ctdt.madt=DONTHUOC.madt)
-
- --
  
- --
-  create trigger Tinh_TongTienDonThuoc
-  on DONTHUOC
-  after insert , delete, update 
-  as
-  begin 
-	update DONTHUOC 
-	set tongtien=(select sum (ctdt.soluong*THUOC.dongia)
-				 from CHITIETDONTHUOC ctdt 
-				 join THUOC on THUOC.mat=ctdt.mat
-				 where ctdt.madt=DONTHUOC.madt)
-	where DONTHUOC.madt in (
-		SELECT DISTINCT madt FROM inserted
-		UNION
-		SELECT DISTINCT madt FROM deleted
-	)
-
-  end 
 
 
 
@@ -345,57 +367,12 @@ VALUES ('HD0001', 'BA0001', 0, (SELECT ngaykham FROM LSKHAM WHERE maba = 'BA0001
 	   ('HD0008', 'BA0010', 0, (SELECT ngaykham FROM LSKHAM WHERE maba = 'BA0010'), 'NV0005'),
 	   ('HD0009', 'BA0012', 0, (SELECT ngaykham FROM LSKHAM WHERE maba = 'BA0012'), 'NV0005'),
 	   ('HD0010', 'BA0013', 0, (SELECT ngaykham FROM LSKHAM WHERE maba = 'BA0013'), 'NV0005')
---tính tổng tiền hóa đơn dịch vụ 
---update trước 
- update HOADONDV
- set tongtien =(select sum (cthd.soluong*dv.dongia)
-				 from CHITIETHDDV cthd 
-				 join DICHVU dv on dv.madv=cthd.madv
-				 where cthd.mahddv=HOADONDV.mahddv)
---trigger
- create trigger Tinh_TongTienDV
-  on HOADONDV
-  after insert , delete, update 
-  as
-  begin 
-	update HOADONDV
-	set tongtien=(select sum (cthd.soluong*dv.dongia)
-				 from CHITIETHDDV cthd 
-				 join DICHVU dv on dv.madv=cthd.madv
-				 where cthd.mahddv=HOADONDV.mahddv)
-	where HOADONDV.mahddv in (
-		SELECT DISTINCT mahddv FROM inserted
-		UNION
-		SELECT DISTINCT mahddv FROM deleted
-	)
-	end 
-	--test 
-	INSERT INTO CHITIETHDDV (mahddv, madv, soluong)
-	VALUES	('HD0007', 'DV0001', 1),
-			('HD0008', 'DV0002', 2),
-			('HD0009', 'DV0003', 1),
-			('HD0010', 'DV0004', 1)
 
---kiểm tra xem là ngày trong hoadondv có cùng ngày với lskham của bệnh nhân hay không?
-	create trigger check_ngay_hddv
-	on HOADONDV
-	after insert, update 
-	as 
-	begin 
-		if exists(select 1
-				  from inserted i 
-				  join LSKHAM ls on ls.maba=i.maba
-				  where i.ngay<>ls.ngaykham
-				  ) 
-				  begin 
-					 RAISERROR ('Ngày trong HOADONDV phải trùng với ngày khám trong LSKHAM.', 16, 1);
-					 ROLLBACK TRANSACTION;
-				  end 
-	end 
-	--test 
-	INSERT INTO HOADONDV 
-	VALUES ('HD0011', 'BA0014', 0,(SELECT ngaykham FROM LSKHAM WHERE maba = 'BA0014') , 'NV0001')
 
+	
+
+
+	
 
 --CHITIETHDDV
 INSERT INTO CHITIETHDDV (mahddv, madv, soluong)
@@ -409,19 +386,46 @@ VALUES	('HD0001', 'DV0001', 1),
 		('HD0005', 'DV0008', 1),
 		('HD0006', 'DV0009', 1),
 		('HD0006', 'DV0010', 2)
+INSERT INTO CHITIETHDDV (mahddv, madv, soluong)
+VALUES	('HD0007', 'DV0001', 1),
+	('HD0008', 'DV0002', 2),
+	('HD0009', 'DV0003', 1),
+	('HD0010', 'DV0004', 1)
 
     
-SELECT 
-    BENHNHAN.mabn, 
-    BENHNHAN.hoten, 
-    COUNT(LSKHAM.maba) AS solankham
-FROM 
-    BENHNHAN
-LEFT JOIN 
-    LSKHAM ON BENHNHAN.mabn = LSKHAM.mabn
-GROUP BY 
-    BENHNHAN.mabn, BENHNHAN.hoten;
+--SELECT 
+--    BENHNHAN.mabn, 
+--    BENHNHAN.hoten, 
+--    COUNT(LSKHAM.maba) AS solankham
+--FROM 
+--    BENHNHAN
+--LEFT JOIN 
+--    LSKHAM ON BENHNHAN.mabn = LSKHAM.mabn
+--GROUP BY 
+--    BENHNHAN.mabn, BENHNHAN.hoten;
+--tính tổng tiền hóa đơn dịch vụ 
+--update trước 
+ --update HOADONDV
+ --set tongtien =(select sum (cthd.soluong*dv.dongia)
+	--			 from CHITIETHDDV cthd 
+	--			 join DICHVU dv on dv.madv=cthd.madv
+	--			 where cthd.mahddv=HOADONDV.mahddv)
 
+
+----tính tổng tiền đơn thuốc cho mỗi lần bệnh nhân đến khám 
+-- select sum (ctdt.soluong*THUOC.dongia)
+-- from CHITIETDONTHUOC ctdt 
+-- join THUOC on THUOC.mat=ctdt.mat
+-- where ctdt.madt='DT01'
+
+-- --
+-- update DONTHUOC
+-- set tongtien =(select sum (ctdt.soluong*THUOC.dongia)
+--				 from CHITIETDONTHUOC ctdt 
+--				 join THUOC on THUOC.mat=ctdt.mat
+--				 where ctdt.madt=DONTHUOC.madt)
+
+-- --
 
 
 select * from NHANVIEN
