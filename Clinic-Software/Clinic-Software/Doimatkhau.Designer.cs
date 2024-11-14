@@ -32,8 +32,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnxacnhan = new System.Windows.Forms.Button();
             this.ckbHTmatkhau = new System.Windows.Forms.CheckBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtxacnhanmk = new System.Windows.Forms.TextBox();
+            this.txtmkmoi = new System.Windows.Forms.TextBox();
             this.lblxacnhanmk = new System.Windows.Forms.Label();
             this.lblmkmoi = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -74,32 +74,33 @@
             this.ckbHTmatkhau.TabIndex = 29;
             this.ckbHTmatkhau.Text = "Hiện thị mật khẩu";
             this.ckbHTmatkhau.UseVisualStyleBackColor = true;
+            this.ckbHTmatkhau.CheckedChanged += new System.EventHandler(this.ckbHTmatkhau_CheckedChanged);
             // 
-            // textBox2
+            // txtxacnhanmk
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.textBox2.Location = new System.Drawing.Point(214, 330);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(173, 31);
-            this.textBox2.TabIndex = 28;
+            this.txtxacnhanmk.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txtxacnhanmk.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtxacnhanmk.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txtxacnhanmk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.txtxacnhanmk.Location = new System.Drawing.Point(214, 330);
+            this.txtxacnhanmk.Multiline = true;
+            this.txtxacnhanmk.Name = "txtxacnhanmk";
+            this.txtxacnhanmk.PasswordChar = '*';
+            this.txtxacnhanmk.Size = new System.Drawing.Size(173, 31);
+            this.txtxacnhanmk.TabIndex = 28;
             // 
-            // textBox1
+            // txtmkmoi
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.textBox1.Location = new System.Drawing.Point(214, 248);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PasswordChar = '*';
-            this.textBox1.Size = new System.Drawing.Size(173, 31);
-            this.textBox1.TabIndex = 27;
+            this.txtmkmoi.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txtmkmoi.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtmkmoi.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txtmkmoi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.txtmkmoi.Location = new System.Drawing.Point(214, 248);
+            this.txtmkmoi.Multiline = true;
+            this.txtmkmoi.Name = "txtmkmoi";
+            this.txtmkmoi.PasswordChar = '*';
+            this.txtmkmoi.Size = new System.Drawing.Size(173, 31);
+            this.txtmkmoi.TabIndex = 27;
             // 
             // lblxacnhanmk
             // 
@@ -147,8 +148,8 @@
             this.ClientSize = new System.Drawing.Size(426, 506);
             this.Controls.Add(this.btnxacnhan);
             this.Controls.Add(this.ckbHTmatkhau);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtxacnhanmk);
+            this.Controls.Add(this.txtmkmoi);
             this.Controls.Add(this.lblxacnhanmk);
             this.Controls.Add(this.lblmkmoi);
             this.Controls.Add(this.panel2);
@@ -156,6 +157,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Doimatkhau";
             this.Text = "Doimatkhau";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Doimatkhau_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -166,8 +168,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnxacnhan;
         private System.Windows.Forms.CheckBox ckbHTmatkhau;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtxacnhanmk;
+        private System.Windows.Forms.TextBox txtmkmoi;
         private System.Windows.Forms.Label lblxacnhanmk;
         private System.Windows.Forms.Label lblmkmoi;
         private System.Windows.Forms.Panel panel2;

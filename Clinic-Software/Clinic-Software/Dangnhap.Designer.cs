@@ -101,6 +101,7 @@
             this.ckbHienmatkhau.TabIndex = 27;
             this.ckbHienmatkhau.Text = "Hiện mật khẩu";
             this.ckbHienmatkhau.UseVisualStyleBackColor = true;
+            this.ckbHienmatkhau.CheckedChanged += new System.EventHandler(this.ckbHienmatkhau_CheckedChanged);
             // 
             // txtmatkhau
             // 
@@ -149,6 +150,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Dangnhap";
             this.Text = "Dangnhap";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Dangnhap_FormClosing);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
