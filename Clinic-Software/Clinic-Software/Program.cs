@@ -21,7 +21,7 @@ namespace Clinic_Software
             //Application.Run(new Homepage());
             //Application.Run(new BacSi());
          
-            //Application.Run(new KhamBenh());
+            Application.Run(new KhamBenh());
             //Application.Run(new ThongTinKhamBenh());
             //Application.Run(new KeDichVu());
             //Application.Run(new Dangnhap());

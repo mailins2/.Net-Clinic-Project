@@ -189,9 +189,18 @@ namespace Clinic_Software
                 DialogResult r = MessageBox.Show("Bạn có chắc muốn lưu bệnh án này không?\n Lưu ý: Bệnh án đã lưu không thể sửa!", "Xác nhận lưu", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (r == DialogResult.Yes)
                 {
-                    string stt = sql.getExecuteScalar("SELECT FORMAT(COUNT(*)+1, '000') FROM PHIEUNHAP").ToString();
+                    string stt = sql.getExecuteScalar("SELECT FORMAT(COUNT(*)+1, '0000') FROM LSKHAM").ToString();
                     string maba = "BA" + stt;
-                    sql.getExecuteNonQuery("INSERT INTO LSKHAM VALUES('"+maba+"','"+mabn.Text+"','"+Program.LoginID+"','"+ngaydk.Text+"','"+chandoantxt.Text+"','"+dieutritxt.Text+"')");
+                    DateTime ngaykham =(DateTime) sql.getExecuteScalar("SELECT NGAYHEN FROM LICHHEN WHERE MALH = '" + malh.Text + "'");
+                    
+                    sql.getExecuteNonQuery("INSERT INTO LSKHAM VALUES('"+maba+"','"+mabn.Text+"','"+Program.LoginID+ "','"+ ngaykham.ToString("yyyy-MM-dd")+ "','" + chandoantxt.Text+"','"+dieutritxt.Text+"')");
+                    if (checkBox1.Checked)
+                    {
+                        stt = sql.getExecuteScalar("SELECT FORMAT(COUNT(*)+1, '0000') FROM LICHHEN").ToString();
+
+                        string malh = "LH" + stt;
+                        sql.getExecuteNonQuery("INSERT INTO LICHHEN VALUES('" + malh + "','" + mabn.Text + "','" + Program.LoginID + "','" + dateTimePicker1.Value.ToString("yyyy-MM-dd HH:mm") + "',N'Chưa xác nhận')");
+                    }
                     MessageBox.Show("Đã thêm bệnh án thành công !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
