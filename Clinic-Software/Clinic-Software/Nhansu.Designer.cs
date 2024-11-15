@@ -32,15 +32,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Nhansu));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Ma = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Hoten = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Ngaysinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Gioitinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Diachi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Sdt = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cccd = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Hocham = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
             this.rdotatca = new System.Windows.Forms.RadioButton();
             this.rdoNhanvien = new System.Windows.Forms.RadioButton();
@@ -51,6 +42,8 @@
             this.lblmatk = new System.Windows.Forms.Label();
             this.tabControlBacsi = new System.Windows.Forms.TabControl();
             this.tabPagebacsi = new System.Windows.Forms.TabPage();
+            this.rdonu = new System.Windows.Forms.RadioButton();
+            this.rdonam = new System.Windows.Forms.RadioButton();
             this.btnThembs = new System.Windows.Forms.Button();
             this.btnLuubs = new System.Windows.Forms.Button();
             this.btnXoabs = new System.Windows.Forms.Button();
@@ -59,7 +52,6 @@
             this.txtcccdbs = new System.Windows.Forms.TextBox();
             this.txtsdtbs = new System.Windows.Forms.TextBox();
             this.txtdiachibs = new System.Windows.Forms.TextBox();
-            this.cbbgioitinhbs = new System.Windows.Forms.ComboBox();
             this.txthotenbs = new System.Windows.Forms.TextBox();
             this.txtmabs = new System.Windows.Forms.TextBox();
             this.lblhocham = new System.Windows.Forms.Label();
@@ -73,6 +65,8 @@
             this.lblhotenbs = new System.Windows.Forms.Label();
             this.lblmabs = new System.Windows.Forms.Label();
             this.tabPageNhanvien = new System.Windows.Forms.TabPage();
+            this.rdonunv = new System.Windows.Forms.RadioButton();
+            this.rdonamnv = new System.Windows.Forms.RadioButton();
             this.btnthemnv = new System.Windows.Forms.Button();
             this.btnLuunv = new System.Windows.Forms.Button();
             this.btnXoanv = new System.Windows.Forms.Button();
@@ -80,7 +74,6 @@
             this.txtcccdnv = new System.Windows.Forms.TextBox();
             this.txtsdtnv = new System.Windows.Forms.TextBox();
             this.txtdiachinv = new System.Windows.Forms.TextBox();
-            this.cbbgioitinhnv = new System.Windows.Forms.ComboBox();
             this.txthotennv = new System.Windows.Forms.TextBox();
             this.txtmanv = new System.Windows.Forms.TextBox();
             this.lblsdtnv = new System.Windows.Forms.Label();
@@ -114,16 +107,6 @@
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Ma,
-            this.Hoten,
-            this.Ngaysinh,
-            this.Gioitinh,
-            this.Diachi,
-            this.Sdt,
-            this.cccd,
-            this.Email,
-            this.Hocham});
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
@@ -138,60 +121,6 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(781, 537);
             this.dataGridView1.TabIndex = 5;
-            // 
-            // Ma
-            // 
-            this.Ma.HeaderText = "Mã";
-            this.Ma.MinimumWidth = 6;
-            this.Ma.Name = "Ma";
-            // 
-            // Hoten
-            // 
-            this.Hoten.HeaderText = "Họ và tên";
-            this.Hoten.MinimumWidth = 6;
-            this.Hoten.Name = "Hoten";
-            // 
-            // Ngaysinh
-            // 
-            this.Ngaysinh.HeaderText = "Ngày sinh";
-            this.Ngaysinh.MinimumWidth = 6;
-            this.Ngaysinh.Name = "Ngaysinh";
-            // 
-            // Gioitinh
-            // 
-            this.Gioitinh.HeaderText = "Giớitinh";
-            this.Gioitinh.MinimumWidth = 6;
-            this.Gioitinh.Name = "Gioitinh";
-            // 
-            // Diachi
-            // 
-            this.Diachi.HeaderText = "Địa chỉ";
-            this.Diachi.MinimumWidth = 6;
-            this.Diachi.Name = "Diachi";
-            // 
-            // Sdt
-            // 
-            this.Sdt.HeaderText = "Số điện thoại";
-            this.Sdt.MinimumWidth = 6;
-            this.Sdt.Name = "Sdt";
-            // 
-            // cccd
-            // 
-            this.cccd.HeaderText = "CCCD";
-            this.cccd.MinimumWidth = 6;
-            this.cccd.Name = "cccd";
-            // 
-            // Email
-            // 
-            this.Email.HeaderText = "Email";
-            this.Email.MinimumWidth = 6;
-            this.Email.Name = "Email";
-            // 
-            // Hocham
-            // 
-            this.Hocham.HeaderText = "Học hàm";
-            this.Hocham.MinimumWidth = 6;
-            this.Hocham.Name = "Hocham";
             // 
             // panel1
             // 
@@ -311,6 +240,8 @@
             // tabPagebacsi
             // 
             this.tabPagebacsi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
+            this.tabPagebacsi.Controls.Add(this.rdonu);
+            this.tabPagebacsi.Controls.Add(this.rdonam);
             this.tabPagebacsi.Controls.Add(this.btnThembs);
             this.tabPagebacsi.Controls.Add(this.btnLuubs);
             this.tabPagebacsi.Controls.Add(this.btnXoabs);
@@ -319,7 +250,6 @@
             this.tabPagebacsi.Controls.Add(this.txtcccdbs);
             this.tabPagebacsi.Controls.Add(this.txtsdtbs);
             this.tabPagebacsi.Controls.Add(this.txtdiachibs);
-            this.tabPagebacsi.Controls.Add(this.cbbgioitinhbs);
             this.tabPagebacsi.Controls.Add(this.txthotenbs);
             this.tabPagebacsi.Controls.Add(this.txtmabs);
             this.tabPagebacsi.Controls.Add(this.lblhocham);
@@ -340,6 +270,28 @@
             this.tabPagebacsi.Size = new System.Drawing.Size(652, 635);
             this.tabPagebacsi.TabIndex = 0;
             this.tabPagebacsi.Text = "Bác sĩ";
+            // 
+            // rdonu
+            // 
+            this.rdonu.AutoSize = true;
+            this.rdonu.Location = new System.Drawing.Point(331, 223);
+            this.rdonu.Name = "rdonu";
+            this.rdonu.Size = new System.Drawing.Size(58, 29);
+            this.rdonu.TabIndex = 26;
+            this.rdonu.TabStop = true;
+            this.rdonu.Text = "Nữ";
+            this.rdonu.UseVisualStyleBackColor = true;
+            // 
+            // rdonam
+            // 
+            this.rdonam.AutoSize = true;
+            this.rdonam.Location = new System.Drawing.Point(186, 223);
+            this.rdonam.Name = "rdonam";
+            this.rdonam.Size = new System.Drawing.Size(72, 29);
+            this.rdonam.TabIndex = 25;
+            this.rdonam.TabStop = true;
+            this.rdonam.Text = "Nam";
+            this.rdonam.UseVisualStyleBackColor = true;
             // 
             // btnThembs
             // 
@@ -437,15 +389,6 @@
             this.txtdiachibs.Size = new System.Drawing.Size(379, 30);
             this.txtdiachibs.TabIndex = 13;
             // 
-            // cbbgioitinhbs
-            // 
-            this.cbbgioitinhbs.Font = new System.Drawing.Font("Segoe UI Light", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.cbbgioitinhbs.FormattingEnabled = true;
-            this.cbbgioitinhbs.Location = new System.Drawing.Point(186, 224);
-            this.cbbgioitinhbs.Name = "cbbgioitinhbs";
-            this.cbbgioitinhbs.Size = new System.Drawing.Size(100, 33);
-            this.cbbgioitinhbs.TabIndex = 12;
-            // 
             // txthotenbs
             // 
             this.txthotenbs.BackColor = System.Drawing.SystemColors.InactiveBorder;
@@ -534,9 +477,10 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI Light", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker1.Location = new System.Drawing.Point(186, 170);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(343, 31);
+            this.dateTimePicker1.Size = new System.Drawing.Size(203, 31);
             this.dateTimePicker1.TabIndex = 2;
             // 
             // lblhotenbs
@@ -560,6 +504,8 @@
             // tabPageNhanvien
             // 
             this.tabPageNhanvien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
+            this.tabPageNhanvien.Controls.Add(this.rdonunv);
+            this.tabPageNhanvien.Controls.Add(this.rdonamnv);
             this.tabPageNhanvien.Controls.Add(this.btnthemnv);
             this.tabPageNhanvien.Controls.Add(this.btnLuunv);
             this.tabPageNhanvien.Controls.Add(this.btnXoanv);
@@ -567,7 +513,6 @@
             this.tabPageNhanvien.Controls.Add(this.txtcccdnv);
             this.tabPageNhanvien.Controls.Add(this.txtsdtnv);
             this.tabPageNhanvien.Controls.Add(this.txtdiachinv);
-            this.tabPageNhanvien.Controls.Add(this.cbbgioitinhnv);
             this.tabPageNhanvien.Controls.Add(this.txthotennv);
             this.tabPageNhanvien.Controls.Add(this.txtmanv);
             this.tabPageNhanvien.Controls.Add(this.lblsdtnv);
@@ -587,6 +532,28 @@
             this.tabPageNhanvien.Size = new System.Drawing.Size(652, 635);
             this.tabPageNhanvien.TabIndex = 1;
             this.tabPageNhanvien.Text = "Nhân viên";
+            // 
+            // rdonunv
+            // 
+            this.rdonunv.AutoSize = true;
+            this.rdonunv.Location = new System.Drawing.Point(334, 208);
+            this.rdonunv.Name = "rdonunv";
+            this.rdonunv.Size = new System.Drawing.Size(58, 29);
+            this.rdonunv.TabIndex = 46;
+            this.rdonunv.TabStop = true;
+            this.rdonunv.Text = "Nữ";
+            this.rdonunv.UseVisualStyleBackColor = true;
+            // 
+            // rdonamnv
+            // 
+            this.rdonamnv.AutoSize = true;
+            this.rdonamnv.Location = new System.Drawing.Point(189, 208);
+            this.rdonamnv.Name = "rdonamnv";
+            this.rdonamnv.Size = new System.Drawing.Size(72, 29);
+            this.rdonamnv.TabIndex = 45;
+            this.rdonamnv.TabStop = true;
+            this.rdonamnv.Text = "Nam";
+            this.rdonamnv.UseVisualStyleBackColor = true;
             // 
             // btnthemnv
             // 
@@ -670,15 +637,6 @@
             this.txtdiachinv.Name = "txtdiachinv";
             this.txtdiachinv.Size = new System.Drawing.Size(379, 30);
             this.txtdiachinv.TabIndex = 35;
-            // 
-            // cbbgioitinhnv
-            // 
-            this.cbbgioitinhnv.Font = new System.Drawing.Font("Segoe UI Light", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.cbbgioitinhnv.FormattingEnabled = true;
-            this.cbbgioitinhnv.Location = new System.Drawing.Point(189, 205);
-            this.cbbgioitinhnv.Name = "cbbgioitinhnv";
-            this.cbbgioitinhnv.Size = new System.Drawing.Size(100, 33);
-            this.cbbgioitinhnv.TabIndex = 34;
             // 
             // txthotennv
             // 
@@ -771,9 +729,10 @@
             // dateTimePicker2
             // 
             this.dateTimePicker2.Font = new System.Drawing.Font("Segoe UI Light", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker2.Location = new System.Drawing.Point(189, 157);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(343, 31);
+            this.dateTimePicker2.Size = new System.Drawing.Size(203, 31);
             this.dateTimePicker2.TabIndex = 24;
             // 
             // lblhotennv
@@ -826,15 +785,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Ma;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Hoten;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Ngaysinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Gioitinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Diachi;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Sdt;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cccd;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Email;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Hocham;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.RadioButton rdotatca;
         private System.Windows.Forms.RadioButton rdoNhanvien;
@@ -852,7 +802,6 @@
         private System.Windows.Forms.TextBox txtcccdbs;
         private System.Windows.Forms.TextBox txtsdtbs;
         private System.Windows.Forms.TextBox txtdiachibs;
-        private System.Windows.Forms.ComboBox cbbgioitinhbs;
         private System.Windows.Forms.TextBox txthotenbs;
         private System.Windows.Forms.TextBox txtmabs;
         private System.Windows.Forms.Label lblhocham;
@@ -872,7 +821,6 @@
         private System.Windows.Forms.TextBox txtcccdnv;
         private System.Windows.Forms.TextBox txtsdtnv;
         private System.Windows.Forms.TextBox txtdiachinv;
-        private System.Windows.Forms.ComboBox cbbgioitinhnv;
         private System.Windows.Forms.TextBox txthotennv;
         private System.Windows.Forms.TextBox txtmanv;
         private System.Windows.Forms.Label lblsdtnv;
@@ -886,5 +834,9 @@
         private System.Windows.Forms.Label lblmanv;
         private System.Windows.Forms.Button btnThembs;
         private System.Windows.Forms.Button btnthemnv;
+        private System.Windows.Forms.RadioButton rdonu;
+        private System.Windows.Forms.RadioButton rdonam;
+        private System.Windows.Forms.RadioButton rdonunv;
+        private System.Windows.Forms.RadioButton rdonamnv;
     }
 }

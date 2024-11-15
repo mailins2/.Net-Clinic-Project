@@ -14,7 +14,7 @@ namespace ClassLibrary
         public void Connect()
         {
             string connectstr = "Data Source = DESKTOP-PO6RNRQ;Initial Catalog = QLPK;User ID = sa;Password = 123";
-            //string connectstr = "Data Source = DESKTOP-97KSLKF;Initial Catalog = QLPK; Integrated Security = True";
+           // string connectstr = @"Data Source = DESKTOP-97KSLKF\SQLEXPRESS;Initial Catalog = QLPK; Integrated Security = True";
             Con = new SqlConnection(connectstr);
         }
         public void openConnect()

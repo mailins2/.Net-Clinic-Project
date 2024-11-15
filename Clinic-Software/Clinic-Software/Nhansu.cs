@@ -54,13 +54,6 @@ namespace Clinic_Software
                 dateTimePicker1.Focus();
                 return false;
             }
-            else if (cbbgioitinhbs.Text == "")
-            {
-                lblgioitinhbs.ForeColor = System.Drawing.Color.Red;
-                lblgioitinhbs.Text = "Chưa chọn giới tính";
-                cbbgioitinhbs.Focus();
-                return false;
-            }
             else if (txtdiachibs.Text == "")
             {
                 lbldiachibs.ForeColor = System.Drawing.Color.Red;
@@ -121,13 +114,6 @@ namespace Clinic_Software
                 dateTimePicker2.Focus();
                 return false;
             }
-            else if (cbbgioitinhnv.Text == "")
-            {
-                lblgioitinhnv.ForeColor = System.Drawing.Color.Red;
-                lblgioitinhnv.Text = "Chưa chọn giới tính";
-                cbbgioitinhnv.Focus();
-                return false;
-            }
             else if (txtdiachinv.Text == "")
             {
                 lbldiachinv.ForeColor = System.Drawing.Color.Red;
@@ -164,17 +150,9 @@ namespace Clinic_Software
             txtmabs.Focus();
             txtmanv.Focus();
 
-            string sqlgt_bs = "select HOTEN, GIOITINH from BACSI";
-            dt = sql.Get_DataTable(sqlgt_bs);
-            cbbgioitinhbs.DataSource = dt;
-            cbbgioitinhbs.DisplayMember = "HOTEN";
-            cbbgioitinhbs.ValueMember = "GIOITINH";
-
-            string sqlgt_nv = "select HOTEN, GIOTINH from NHANVIEN";
-            dt = sql.Get_DataTable(sqlgt_nv);
-            cbbgioitinhnv.DataSource = dt;
-            cbbgioitinhnv.DisplayMember = "HOTEN";
-            cbbgioitinhnv.ValueMember = "GIOITINH";
+            string sql_bs = "select * from BACSI";
+            dt = sql.Get_DataTable(sql_bs);
+            dataGridView1.DataSource = dt;
         }
     }
 }

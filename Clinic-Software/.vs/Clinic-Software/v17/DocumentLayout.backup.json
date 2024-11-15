@@ -1,38 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\",
+  "WorkspaceRootPath": "D:\\H\u1ECDc t\u1EADp\\C\u00F4ng ngh\u1EC7.Net\\Do an chinh 4\\.Net-Clinic-Project\\Clinic-Software\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|c:\\users\\nguye\\source\\github\\.net-clinic-project\\clinic-software\\clinic-software\\thongtinkhambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|solutionrelative:clinic-software\\thongtinkhambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|d:\\h\u1ECDc t\u1EADp\\c\u00F4ng ngh\u1EC7.net\\do an chinh 4\\.net-clinic-project\\clinic-software\\clinic-software\\nhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|solutionrelative:clinic-software\\nhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\clinic-software\\thongtinkhambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|solutionrelative:clinic-software\\thongtinkhambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|D:\\H\u1ECDc t\u1EADp\\C\u00F4ng ngh\u1EC7.Net\\Do an chinh 4\\.Net-Clinic-Project\\Clinic-Software\\clinic-software\\nhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|solutionrelative:clinic-software\\nhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C09E92D-CEF6-4D6C-AEA0-4B2130ED8C62}|ClassLibrary\\ClassLibrary.csproj|C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\classlibrary\\thongtinkham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C09E92D-CEF6-4D6C-AEA0-4B2130ED8C62}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\thongtinkham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C09E92D-CEF6-4D6C-AEA0-4B2130ED8C62}|ClassLibrary\\ClassLibrary.csproj|C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\classlibrary\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C09E92D-CEF6-4D6C-AEA0-4B2130ED8C62}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\clinic-software\\khambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|solutionrelative:clinic-software\\khambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\clinic-software\\khambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|solutionrelative:clinic-software\\khambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\clinic-software\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|D:\\H\u1ECDc t\u1EADp\\C\u00F4ng ngh\u1EC7.Net\\Do an chinh 4\\.Net-Clinic-Project\\Clinic-Software\\clinic-software\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|solutionrelative:clinic-software\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\clinic-software\\khambenh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C838C78-2D16-4DBB-8312-E9C87193683D}|Clinic-Software\\Clinic-Software.csproj|solutionrelative:clinic-software\\khambenh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C09E92D-CEF6-4D6C-AEA0-4B2130ED8C62}|ClassLibrary\\ClassLibrary.csproj|D:\\H\u1ECDc t\u1EADp\\C\u00F4ng ngh\u1EC7.Net\\Do an chinh 4\\.Net-Clinic-Project\\Clinic-Software\\classlibrary\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C09E92D-CEF6-4D6C-AEA0-4B2130ED8C62}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,13 +30,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\Program.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc t\u1EADp\\C\u00F4ng ngh\u1EC7.Net\\Do an chinh 4\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\Program.cs",
               "RelativeDocumentMoniker": "Clinic-Software\\Program.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\Program.cs",
+              "ToolTip": "D:\\H\u1ECDc t\u1EADp\\C\u00F4ng ngh\u1EC7.Net\\Do an chinh 4\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\Program.cs",
               "RelativeToolTip": "Clinic-Software\\Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T16:36:15.174Z",
               "IsPinned": true
@@ -60,91 +44,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ThongTinKhamBenh.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\ThongTinKhamBenh.cs",
-              "RelativeDocumentMoniker": "Clinic-Software\\ThongTinKhamBenh.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\ThongTinKhamBenh.cs*",
-              "RelativeToolTip": "Clinic-Software\\ThongTinKhamBenh.cs*",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAIwLQAAABFAAAAAAAAAA==",
+              "Title": "Nhansu.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc t\u1EADp\\C\u00F4ng ngh\u1EC7.Net\\Do an chinh 4\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\Nhansu.cs",
+              "RelativeDocumentMoniker": "Clinic-Software\\Nhansu.cs",
+              "ToolTip": "D:\\H\u1ECDc t\u1EADp\\C\u00F4ng ngh\u1EC7.Net\\Do an chinh 4\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\Nhansu.cs",
+              "RelativeToolTip": "Clinic-Software\\Nhansu.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAkwHUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:01:07.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "KhamBenh.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\KhamBenh.cs",
-              "RelativeDocumentMoniker": "Clinic-Software\\KhamBenh.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\KhamBenh.cs",
-              "RelativeToolTip": "Clinic-Software\\KhamBenh.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwA8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:30:33.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SQL.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\ClassLibrary\\SQL.cs",
-              "RelativeDocumentMoniker": "ClassLibrary\\SQL.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\ClassLibrary\\SQL.cs",
-              "RelativeToolTip": "ClassLibrary\\SQL.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAIA3wCIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T03:33:40.675Z",
+              "WhenOpened": "2024-11-15T11:14:44.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ThongTinKhamBenh.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\ThongTinKhamBenh.cs",
-              "RelativeDocumentMoniker": "Clinic-Software\\ThongTinKhamBenh.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\ThongTinKhamBenh.cs [Design]*",
-              "RelativeToolTip": "Clinic-Software\\ThongTinKhamBenh.cs [Design]*",
+              "Title": "Nhansu.cs [Design]",
+              "DocumentMoniker": "D:\\H\u1ECDc t\u1EADp\\C\u00F4ng ngh\u1EC7.Net\\Do an chinh 4\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\Nhansu.cs",
+              "RelativeDocumentMoniker": "Clinic-Software\\Nhansu.cs",
+              "ToolTip": "D:\\H\u1ECDc t\u1EADp\\C\u00F4ng ngh\u1EC7.Net\\Do an chinh 4\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\Nhansu.cs [Design]",
+              "RelativeToolTip": "Clinic-Software\\Nhansu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:29:02.565Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-15T11:14:41.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ThongTinKham.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\ClassLibrary\\ThongTinKham.cs",
-              "RelativeDocumentMoniker": "ClassLibrary\\ThongTinKham.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\ClassLibrary\\ThongTinKham.cs",
-              "RelativeToolTip": "ClassLibrary\\ThongTinKham.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBMAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SQL.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc t\u1EADp\\C\u00F4ng ngh\u1EC7.Net\\Do an chinh 4\\.Net-Clinic-Project\\Clinic-Software\\ClassLibrary\\SQL.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\SQL.cs",
+              "ToolTip": "D:\\H\u1ECDc t\u1EADp\\C\u00F4ng ngh\u1EC7.Net\\Do an chinh 4\\.Net-Clinic-Project\\Clinic-Software\\ClassLibrary\\SQL.cs",
+              "RelativeToolTip": "ClassLibrary\\SQL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T06:09:22.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "KhamBenh.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\KhamBenh.cs",
-              "RelativeDocumentMoniker": "Clinic-Software\\KhamBenh.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\KhamBenh.cs [Design]",
-              "RelativeToolTip": "Clinic-Software\\KhamBenh.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:29:05.192Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "KhamBenh.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\KhamBenh.Designer.cs",
-              "RelativeDocumentMoniker": "Clinic-Software\\KhamBenh.Designer.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\Github\\.Net-Clinic-Project\\Clinic-Software\\Clinic-Software\\KhamBenh.Designer.cs",
-              "RelativeToolTip": "Clinic-Software\\KhamBenh.Designer.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAQwHoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T07:13:50.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T03:33:40.675Z"
             }
           ]
         }
