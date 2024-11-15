@@ -81,6 +81,7 @@
             // 
             // dataGridViewDsBN
             // 
+            this.dataGridViewDsBN.AllowUserToAddRows = false;
             this.dataGridViewDsBN.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
@@ -103,6 +104,7 @@
             this.dataGridViewDsBN.Location = new System.Drawing.Point(3, 57);
             this.dataGridViewDsBN.MultiSelect = false;
             this.dataGridViewDsBN.Name = "dataGridViewDsBN";
+            this.dataGridViewDsBN.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -117,8 +119,8 @@
             this.dataGridViewDsBN.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewDsBN.Size = new System.Drawing.Size(589, 1033);
             this.dataGridViewDsBN.TabIndex = 1;
-            this.dataGridViewDsBN.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewDsBN_CellClick);
             this.dataGridViewDsBN.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewDsBN_CellContentClick);
+            
             // 
             // tableLayoutPanel1
             // 

@@ -31,8 +31,8 @@ CREATE TABLE BENHNHAN (
 	HOTEN NVARCHAR(50),
 	NGAYSINH DATE,
 	DIACHI NVARCHAR(100),
-	SDT CHAR(10)CHECK (LEN(SDT) = 10) ,
 	CCCD CHAR(12)CHECK (LEN(CCCD) = 12),
+	SDT CHAR(10)CHECK (LEN(SDT) = 10) ,
 	GIOITINH NVARCHAR(5) CHECK (GIOITINH IN (N'Nam', N'Nữ'))
 )
 CREATE TABLE LICHHEN
@@ -224,13 +224,13 @@ insert into BENHNHAN values ('BN0003',N'Nguyễn Linh Chi','2000-07-18',N'TPHCM'
 insert into BENHNHAN values ('BN0004',N'Lê Khánh Duy','1998-02-20',N'Bình Thuận','0136000344','084304002121',N'Nam')
 insert into BENHNHAN values ('BN0005',N'Lâm Thu Trà','2001-11-06',N'Long An','0136000345','084304002122',N'Nữ')
 insert into BENHNHAN values ('BN0006',N'Phạm Văn Đảng','2006-12-01',N'Long An','0136000346','084304002123',N'Nam')
-insert into BENHNHAN values ('BN0007',N'Phạm Hiếu Liêm','1999-01-11',N'Hà Tĩnh','0136000347','084304002124',N'Nam')
-insert into BENHNHAN values ('BN0008',N'Đào Thị Kim Duyên','2000-07-18',N'Tiền Giang','0136000348','084304002125',N'Nữ')
-insert into BENHNHAN values ('BN0009',N'Nguyễn Đắc Tuấn','1998-02-20',N'Bình Thuận','0136000349','084304002126',N'Nam')
-insert into BENHNHAN values ('BN0010',N'Lê Thị Thanh Trúc','2001-11-06',N'Trà Vinh','0136000310','084304002127',N'Nữ')
+insert into BENHNHAN values ('BN0007',N'Phạm Hiếu Liêm','1995-08-30',N'Hà Tĩnh','0136000347','084304002124',N'Nam')
+insert into BENHNHAN values ('BN0008',N'Đào Thị Kim Duyên','1989-02-05',N'Tiền Giang','0136000348','084304002125',N'Nữ')
+insert into BENHNHAN values ('BN0009',N'Nguyễn Đắc Tuấn','2000-10-15',N'Bình Thuận','0136000349','084304002126',N'Nam')
+insert into BENHNHAN values ('BN0010',N'Lê Thị Thanh Trúc','1999-04-23',N'Trà Vinh','0136000310','084304002127',N'Nữ')
 insert into BENHNHAN values ('BN0011',N'Bùi Quốc Hiếu','2004-02-01',N'Thái Nguyên','0136000311','084304002128',N'Nam')
-insert into BENHNHAN values ('BN0012',N'Nguyễn Thị Thu Hằng','1999-01-11',N'Hà Tĩnh','0136000312','084304002129',N'Nữ')
-insert into BENHNHAN values ('BN0013',N'Vũ Thị Kim Khánh','2000-07-18',N'Ninh Bình','0136000313','084304002130',N'Nữ')
+insert into BENHNHAN values ('BN0012',N'Nguyễn Thị Thu Hằng','2003-12-28',N'Hà Tĩnh','0136000312','084304002129',N'Nữ')
+insert into BENHNHAN values ('BN0013',N'Vũ Thị Kim Khánh','2002-09-27',N'Ninh Bình','0136000313','084304002130',N'Nữ')
 insert into BENHNHAN values ('BN0014',N'Nguyễn Tuyết Hạnh','1998-12-20',N'Bình Thuận','0136000314','084304002131',N'Nữ')
 insert into BENHNHAN values ('BN0015',N'Trần Kim Phượng','2001-09-06',N'Long An','0136000315','084304002132',N'Nữ')
 
@@ -450,11 +450,13 @@ VALUES	('HD0007', 'DV0001', 1),
 --select * from DONTHUOC
 --select * from CHITIETDONTHUOC
 select * from LICHHEN
---select * from LSKHAM
-SELECT MALH,HOTEN,FORMAT(NGAYHEN,'HH:mm dd/MM/yyyy') AS 'NGAYHEN'
-FROM LICHHEN,BENHNHAN 
-WHERE BENHNHAN.MABN = LICHHEN.MABN AND MABS = 'BS0005' 
-order by cast(ngayhen as date), cast(ngayhen as time);
+select * from LSKHAM
+--SELECT MALH,HOTEN,FORMAT(NGAYHEN,'HH:mm dd/MM/yyyy') AS 'NGAYHEN'
+--FROM LICHHEN,BENHNHAN 
+--WHERE BENHNHAN.MABN = LICHHEN.MABN AND MABS = 'BS0005' 
+--order by cast(ngayhen as date), cast(ngayhen as time);
 
-
-
+SELECT *
+FROM LICHHEN
+WHERE NGAYHEN BETWEEN DATEADD(minute, -15, '2024-11-10 09:00') AND DATEADD(minute, 15, '2024-11-10 09:00')
+		and mabs = 'BS0001'
