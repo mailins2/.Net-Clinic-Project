@@ -120,7 +120,6 @@
             this.dataGridViewDsBN.Size = new System.Drawing.Size(589, 1033);
             this.dataGridViewDsBN.TabIndex = 1;
             this.dataGridViewDsBN.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewDsBN_CellContentClick);
-            
             // 
             // tableLayoutPanel1
             // 
@@ -180,6 +179,7 @@
             this.kêĐơnThuốcToolStripMenuItem.Name = "kêĐơnThuốcToolStripMenuItem";
             this.kêĐơnThuốcToolStripMenuItem.Size = new System.Drawing.Size(294, 50);
             this.kêĐơnThuốcToolStripMenuItem.Text = "Kê đơn thuốc";
+            this.kêĐơnThuốcToolStripMenuItem.Click += new System.EventHandler(this.kêĐơnThuốcToolStripMenuItem_Click);
             // 
             // kếtThúcKhámToolStripMenuItem
             // 

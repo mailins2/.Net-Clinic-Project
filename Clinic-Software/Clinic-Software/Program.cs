@@ -20,8 +20,8 @@ namespace Clinic_Software
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Homepage());
             //Application.Run(new BacSi());
-         
-            Application.Run(new KhamBenh());
+            Application.Run(new KeDonThuoc());
+            //Application.Run(new KhamBenh());
             //Application.Run(new ThongTinKhamBenh());
             //Application.Run(new KeDichVu());
             //Application.Run(new Dangnhap());

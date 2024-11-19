@@ -31,6 +31,12 @@ namespace Clinic_Software
             FormBorderStyle = FormBorderStyle.None,
             TopLevel = false
         };
+        KeDonThuoc kedonthuoc = new KeDonThuoc
+        {
+            Dock = DockStyle.Fill,
+            FormBorderStyle = FormBorderStyle.None,
+            TopLevel = false
+        };
         public KhamBenh()
         {
             InitializeComponent();
@@ -40,6 +46,7 @@ namespace Clinic_Software
         private void aToolStripMenuItem_Click(object sender, EventArgs e)
         {
             kedichvu.Hide();
+            kedonthuoc.Hide();
             panel1.Controls.Add(thongtinkhambenh);
             panel1.Tag = thongtinkhambenh;
             thongtinkhambenh.Show();
@@ -48,11 +55,19 @@ namespace Clinic_Software
         private void kêDịchVụToolStripMenuItem_Click(object sender, EventArgs e)
         {
             thongtinkhambenh.Hide();
+            kedonthuoc.Hide();
             panel1.Controls.Add(kedichvu);
             panel1.Tag = kedichvu;
             kedichvu.Show();
         }
-
+        private void kêĐơnThuốcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            thongtinkhambenh.Hide();
+            kedichvu.Hide();
+            panel1.Controls.Add(kedonthuoc);
+            panel1.Tag = kedonthuoc;
+            kedonthuoc.Show();
+        }
         private void KhamBenh_Load(object sender, EventArgs e)
         {
             Program.LoginID = "BS0004";
@@ -140,7 +155,6 @@ namespace Clinic_Software
 
             
         }
-
         
     }    
 }
