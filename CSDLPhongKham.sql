@@ -31,8 +31,8 @@ CREATE TABLE BENHNHAN (
 	HOTEN NVARCHAR(50),
 	NGAYSINH DATE,
 	DIACHI NVARCHAR(100),
-	CCCD CHAR(12)CHECK (LEN(CCCD) = 12),
 	SDT CHAR(10)CHECK (LEN(SDT) = 10) ,
+	CCCD CHAR(12)CHECK (LEN(CCCD) = 12),
 	GIOITINH NVARCHAR(5) CHECK (GIOITINH IN (N'Nam', N'Nữ'))
 )
 CREATE TABLE LICHHEN
@@ -224,13 +224,13 @@ insert into BENHNHAN values ('BN0003',N'Nguyễn Linh Chi','2000-07-18',N'TPHCM'
 insert into BENHNHAN values ('BN0004',N'Lê Khánh Duy','1998-02-20',N'Bình Thuận','0136000344','084304002121',N'Nam')
 insert into BENHNHAN values ('BN0005',N'Lâm Thu Trà','2001-11-06',N'Long An','0136000345','084304002122',N'Nữ')
 insert into BENHNHAN values ('BN0006',N'Phạm Văn Đảng','2006-12-01',N'Long An','0136000346','084304002123',N'Nam')
-insert into BENHNHAN values ('BN0007',N'Phạm Hiếu Liêm','1995-08-30',N'Hà Tĩnh','0136000347','084304002124',N'Nam')
-insert into BENHNHAN values ('BN0008',N'Đào Thị Kim Duyên','1989-02-05',N'Tiền Giang','0136000348','084304002125',N'Nữ')
-insert into BENHNHAN values ('BN0009',N'Nguyễn Đắc Tuấn','2000-10-15',N'Bình Thuận','0136000349','084304002126',N'Nam')
-insert into BENHNHAN values ('BN0010',N'Lê Thị Thanh Trúc','1999-04-23',N'Trà Vinh','0136000310','084304002127',N'Nữ')
+insert into BENHNHAN values ('BN0007',N'Phạm Hiếu Liêm','1999-01-11',N'Hà Tĩnh','0136000347','084304002124',N'Nam')
+insert into BENHNHAN values ('BN0008',N'Đào Thị Kim Duyên','2000-07-18',N'Tiền Giang','0136000348','084304002125',N'Nữ')
+insert into BENHNHAN values ('BN0009',N'Nguyễn Đắc Tuấn','1998-02-20',N'Bình Thuận','0136000349','084304002126',N'Nam')
+insert into BENHNHAN values ('BN0010',N'Lê Thị Thanh Trúc','2001-11-06',N'Trà Vinh','0136000310','084304002127',N'Nữ')
 insert into BENHNHAN values ('BN0011',N'Bùi Quốc Hiếu','2004-02-01',N'Thái Nguyên','0136000311','084304002128',N'Nam')
-insert into BENHNHAN values ('BN0012',N'Nguyễn Thị Thu Hằng','2003-12-28',N'Hà Tĩnh','0136000312','084304002129',N'Nữ')
-insert into BENHNHAN values ('BN0013',N'Vũ Thị Kim Khánh','2002-09-27',N'Ninh Bình','0136000313','084304002130',N'Nữ')
+insert into BENHNHAN values ('BN0012',N'Nguyễn Thị Thu Hằng','1999-01-11',N'Hà Tĩnh','0136000312','084304002129',N'Nữ')
+insert into BENHNHAN values ('BN0013',N'Vũ Thị Kim Khánh','2000-07-18',N'Ninh Bình','0136000313','084304002130',N'Nữ')
 insert into BENHNHAN values ('BN0014',N'Nguyễn Tuyết Hạnh','1998-12-20',N'Bình Thuận','0136000314','084304002131',N'Nữ')
 insert into BENHNHAN values ('BN0015',N'Trần Kim Phượng','2001-09-06',N'Long An','0136000315','084304002132',N'Nữ')
 
@@ -303,8 +303,84 @@ insert into LICHHEN values ('LH0027', 'BN0012', 'BS0002', '2024-12-11 15:00', N'
 insert into LICHHEN values ('LH0028', 'BN0013', 'BS0003', '2024-12-12 09:00', N'đã xác nhận')
 insert into LICHHEN values ('LH0029', 'BN0014', 'BS0004', '2024-12-13 11:30', N'chưa xác nhận')
 insert into LICHHEN values ('LH0030', 'BN0015', 'BS0005', '2024-12-14 14:45', N'đã hủy')
+--t11
+insert into LICHHEN values ('LH0061', 'BN0001', 'BS0001', '2024-11-22 09:00', N'đã xác nhận')
+insert into LICHHEN values ('LH0062', 'BN0002', 'BS0002', '2024-11-22 11:15', N'chưa xác nhận')
+insert into LICHHEN values ('LH0063', 'BN0003', 'BS0003', '2024-11-23 14:30', N'đã hủy')
+insert into LICHHEN values ('LH0064', 'BN0004', 'BS0004', '2024-11-23 16:45', N'đã xác nhận')
+insert into LICHHEN values ('LH0065', 'BN0005', 'BS0005', '2024-11-24 08:00', N'chưa xác nhận')
+insert into LICHHEN values ('LH0066', 'BN0006', 'BS0001', '2024-11-24 10:15', N'đã hủy')
+insert into LICHHEN values ('LH0067', 'BN0007', 'BS0002', '2024-11-25 13:00', N'đã xác nhận')
+insert into LICHHEN values ('LH0068', 'BN0008', 'BS0003', '2024-11-25 15:30', N'chưa xác nhận')
+insert into LICHHEN values ('LH0069', 'BN0009', 'BS0004', '2024-11-26 09:00', N'đã hủy')
+insert into LICHHEN values ('LH0070', 'BN0010', 'BS0005', '2024-11-26 11:45', N'đã xác nhận')
+insert into LICHHEN values ('LH0071', 'BN0011', 'BS0001', '2024-11-27 14:15', N'chưa xác nhận')
+insert into LICHHEN values ('LH0072', 'BN0012', 'BS0002', '2024-11-27 16:30', N'đã hủy')
+insert into LICHHEN values ('LH0073', 'BN0013', 'BS0003', '2024-11-28 08:30', N'đã xác nhận')
+insert into LICHHEN values ('LH0074', 'BN0014', 'BS0004', '2024-11-28 10:45', N'chưa xác nhận')
+insert into LICHHEN values ('LH0075', 'BN0015', 'BS0005', '2024-11-29 13:00', N'đã hủy')
+insert into LICHHEN values ('LH0076', 'BN0001', 'BS0001', '2024-11-29 15:30', N'đã xác nhận')
+insert into LICHHEN values ('LH0077', 'BN0002', 'BS0002', '2024-11-30 09:00', N'chưa xác nhận')
+insert into LICHHEN values ('LH0078', 'BN0003', 'BS0003', '2024-11-30 11:15', N'đã hủy')
+insert into LICHHEN values ('LH0079', 'BN0004', 'BS0004', '2024-11-30 14:30', N'đã xác nhận')
+insert into LICHHEN values ('LH0080', 'BN0005', 'BS0005', '2024-11-30 16:45', N'chưa xác nhận')
+insert into LICHHEN values ('LH0081', 'BN0006', 'BS0001', '2024-11-22 08:00', N'đã hủy')
+insert into LICHHEN values ('LH0082', 'BN0007', 'BS0002', '2024-11-23 10:15', N'đã xác nhận')
+insert into LICHHEN values ('LH0083', 'BN0008', 'BS0003', '2024-11-24 13:45', N'chưa xác nhận')
+insert into LICHHEN values ('LH0084', 'BN0009', 'BS0004', '2024-11-25 16:00', N'đã hủy')
+insert into LICHHEN values ('LH0085', 'BN0010', 'BS0005', '2024-11-26 09:15', N'đã xác nhận')
+insert into LICHHEN values ('LH0086', 'BN0011', 'BS0001', '2024-11-27 11:30', N'chưa xác nhận')
+insert into LICHHEN values ('LH0087', 'BN0012', 'BS0002', '2024-11-28 14:00', N'đã hủy')
+insert into LICHHEN values ('LH0088', 'BN0013', 'BS0003', '2024-11-29 16:30', N'đã xác nhận')
+insert into LICHHEN values ('LH0089', 'BN0014', 'BS0004', '2024-11-30 08:15', N'chưa xác nhận')
+insert into LICHHEN values ('LH0090', 'BN0015', 'BS0005', '2024-11-30 10:45', N'đã hủy')
 
+--t12
+insert into LICHHEN values ('LH0031', 'BN0001', 'BS0001', '2024-12-15 09:30', N'đã xác nhận')
+insert into LICHHEN values ('LH0032', 'BN0002', 'BS0002', '2024-12-15 11:00', N'chưa xác nhận')
+insert into LICHHEN values ('LH0033', 'BN0003', 'BS0003', '2024-12-16 14:45', N'đã hủy')
+insert into LICHHEN values ('LH0034', 'BN0004', 'BS0004', '2024-12-16 16:30', N'đã xác nhận')
+insert into LICHHEN values ('LH0035', 'BN0005', 'BS0005', '2024-12-17 08:15', N'chưa xác nhận')
+insert into LICHHEN values ('LH0036', 'BN0006', 'BS0001', '2024-12-17 10:45', N'đã hủy')
+insert into LICHHEN values ('LH0037', 'BN0007', 'BS0002', '2024-12-18 13:15', N'đã xác nhận')
+insert into LICHHEN values ('LH0038', 'BN0008', 'BS0003', '2024-12-18 15:00', N'chưa xác nhận')
+insert into LICHHEN values ('LH0039', 'BN0009', 'BS0004', '2024-12-19 09:45', N'đã hủy')
+insert into LICHHEN values ('LH0040', 'BN0010', 'BS0005', '2024-12-19 11:30', N'đã xác nhận')
+insert into LICHHEN values ('LH0041', 'BN0011', 'BS0001', '2024-12-20 14:00', N'chưa xác nhận')
+insert into LICHHEN values ('LH0042', 'BN0012', 'BS0002', '2024-12-20 16:15', N'đã hủy')
+insert into LICHHEN values ('LH0043', 'BN0013', 'BS0003', '2024-12-21 08:30', N'đã xác nhận')
+insert into LICHHEN values ('LH0044', 'BN0014', 'BS0004', '2024-12-21 10:45', N'chưa xác nhận')
+insert into LICHHEN values ('LH0045', 'BN0015', 'BS0005', '2024-12-22 13:15', N'đã hủy')
+insert into LICHHEN values ('LH0046', 'BN0001', 'BS0001', '2024-12-22 15:30', N'đã xác nhận')
+insert into LICHHEN values ('LH0047', 'BN0002', 'BS0002', '2024-12-23 09:00', N'chưa xác nhận')
+insert into LICHHEN values ('LH0048', 'BN0003', 'BS0003', '2024-12-23 11:15', N'đã hủy')
+insert into LICHHEN values ('LH0049', 'BN0004', 'BS0004', '2024-12-24 14:45', N'đã xác nhận')
+insert into LICHHEN values ('LH0050', 'BN0005', 'BS0005', '2024-12-24 16:30', N'chưa xác nhận')
+insert into LICHHEN values ('LH0051', 'BN0006', 'BS0001', '2024-12-25 08:15', N'đã hủy')
+insert into LICHHEN values ('LH0052', 'BN0007', 'BS0002', '2024-12-25 10:30', N'đã xác nhận')
+insert into LICHHEN values ('LH0053', 'BN0008', 'BS0003', '2024-12-26 13:00', N'chưa xác nhận')
+insert into LICHHEN values ('LH0054', 'BN0009', 'BS0004', '2024-12-26 15:45', N'đã hủy')
+insert into LICHHEN values ('LH0055', 'BN0010', 'BS0005', '2024-12-27 09:30', N'đã xác nhận')
+insert into LICHHEN values ('LH0056', 'BN0011', 'BS0001', '2024-12-27 11:00', N'chưa xác nhận')
+insert into LICHHEN values ('LH0057', 'BN0012', 'BS0002', '2024-12-28 14:30', N'đã hủy')
+insert into LICHHEN values ('LH0058', 'BN0013', 'BS0003', '2024-12-28 16:15', N'đã xác nhận')
+insert into LICHHEN values ('LH0059', 'BN0014', 'BS0004', '2024-12-29 08:00', N'chưa xác nhận')
+insert into LICHHEN values ('LH0060', 'BN0015', 'BS0005', '2024-12-29 10:15', N'đã hủy')
+--tg now
+INSERT INTO LICHHEN VALUES ('LH0090', 'BN0013', 'BS0001', '2024-11-22 15:18', N'đã xác nhận');
+INSERT INTO LICHHEN VALUES ('LH0091', 'BN0014', 'BS0001', '2024-11-22 15:20', N'chưa xác nhận');
+INSERT INTO LICHHEN VALUES ('LH0092', 'BN0015', 'BS0001', '2024-11-22 15:22', N'đã xác nhận');
+INSERT INTO LICHHEN VALUES ('LH0093', 'BN0010', 'BS0002', '2024-11-22 15:23', N'chưa xác nhận');
+INSERT INTO LICHHEN VALUES ('LH0094', 'BN0007', 'BS0003', '2024-11-22 15:25', N'đã xác nhận');
+INSERT INTO LICHHEN VALUES ('LH0095', 'BN0008', 'BS0004', '2024-11-22 15:30', N'chưa xác nhận');
+INSERT INTO LICHHEN VALUES ('LH0096', 'BN0009', 'BS0005', '2024-11-22 15:35', N'đã xác nhận');
+INSERT INTO LICHHEN VALUES ('LH0097', 'BN0010', 'BS0003', '2024-11-22 15:50', N'chưa xác nhận');
+INSERT INTO LICHHEN VALUES ('LH0098', 'BN0011', 'BS0002', '2024-11-22 15:58', N'đã xác nhận');
+INSERT INTO LICHHEN VALUES ('LH0099', 'BN0012', 'BS0002', '2024-11-22 16:00', N'chưa xác nhận');
+INSERT INTO LICHHEN VALUES ('LH0100', 'BN0012', 'BS0002', '2024-11-22 17:12', N'chưa xác nhận');
+INSERT INTO LICHHEN VALUES ('LH0101', 'BN0012', 'BS0002', '2024-11-22 17:14', N'chưa xác nhận');
 
+INSERT INTO LICHHEN VALUES ('LH0102', 'BN0009', 'BS0005', '2024-11-22 17:17', N'đã xác nhận');
 ---LSKHAM
 INSERT INTO LSKHAM  VALUES
 ('BA0001', 'BN0001', 'BS0001', '2024-01-10', N'Viêm da cơ địa', N'Dùng kem bôi Hydrocortisone 2 lần/ngày'),
@@ -450,13 +526,46 @@ VALUES	('HD0007', 'DV0001', 1),
 --select * from DONTHUOC
 --select * from CHITIETDONTHUOC
 select * from LICHHEN
-select * from LSKHAM
---SELECT MALH,HOTEN,FORMAT(NGAYHEN,'HH:mm dd/MM/yyyy') AS 'NGAYHEN'
---FROM LICHHEN,BENHNHAN 
---WHERE BENHNHAN.MABN = LICHHEN.MABN AND MABS = 'BS0005' 
---order by cast(ngayhen as date), cast(ngayhen as time);
+--select * from LSKHAM
+SELECT MALH,HOTEN,FORMAT(NGAYHEN,'HH:mm dd/MM/yyyy') AS 'NGAYHEN'
+FROM LICHHEN,BENHNHAN 
+WHERE BENHNHAN.MABN = LICHHEN.MABN AND MABS = 'BS0005' 
+order by cast(ngayhen as date), cast(ngayhen as time)
 
-SELECT *
-FROM LICHHEN
-WHERE NGAYHEN BETWEEN DATEADD(minute, -15, '2024-11-10 09:00') AND DATEADD(minute, 15, '2024-11-10 09:00')
-		and mabs = 'BS0001'
+select * from LICHHEN
+
+select distinct trangthai
+from LICHHEN
+--
+select mabs,hoten
+from BACSI
+--
+SELECT malh,lh.mabn,bn.HOTEN,lh.mabs,FORMAT(NGAYHEN,'HH:mm dd-MM-yyyy') AS 'NGAYHEN',trangthai 
+FROM LichHen lh
+join BENHNHAN bn on bn.MABN=lh.mabn
+where malh='LH0001'
+
+--
+declare @TrangThai nvarchar(100), @MaLichHen char(10),@MaBenhNhan char(10),@HoTen NVARCHAR(50),@TuNgay DateTime, @DenNgay Datetime
+set @TrangThai=N'Chưa xác nhận '
+set @MaLichHen=null
+set @MaBenhNhan=null
+set @HoTen=null
+set @TuNgay=null
+set @DenNgay=null
+SELECT malh,lh.mabn,bn.HOTEN,lh.mabs,FORMAT(NGAYHEN,'HH:mm:ss dd-MM-yyyy') AS 'NGAYHEN',trangthai 
+FROM LichHen lh
+join BENHNHAN bn on bn.MABN=lh.mabn
+WHERE (@TrangThai IS NULL OR trangthai = @TrangThai) 
+AND (@MaLichHen IS NULL OR malh = @MaLichHen)
+AND (@MaBenhNhan IS NULL OR lh.mabn = @MaBenhNhan)
+AND (@HoTen is null or HOTEN=@HoTen)
+--AND (ngayhen BETWEEN @TuNgay  AND @DenNgay)
+order by cast(ngayhen as date), cast(ngayhen as time)
+--
+select FORMAT(ngaysinh,'dd-MM-yyyy') as Ngaysinh,DIACHI,SDT,GIOITINH
+from BENHNHAN bn
+where mabn='BN0001'
+
+select distinct GIOITINH 
+from BENHNHAN

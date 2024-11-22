@@ -225,3 +225,31 @@ C:\Users\nguye\source\Github\.Net Project\.Net-Clinic-Project\Clinic-Software\Cl
 C:\Users\nguye\source\Github\.Net Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-S.005BE23E.Up2Date
 C:\Users\nguye\source\Github\.Net Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.exe
 C:\Users\nguye\source\Github\.Net Project\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.pdb
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe.config
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.exe
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\Clinic-Software.pdb
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\ClassLibrary.dll
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\bin\Debug\ClassLibrary.pdb
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.AssemblyReference.cache
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.BacSi.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Baocaodoanhthu.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.BCdanhsachkhambenh.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.BCdoanhthudichvu.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.DangKyLichHen.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Dangnhap.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Doimatkhau.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Homepage.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.KeDichVu.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.KeDonThuoc.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.KhamBenh.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.LichHen.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Nhansu.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.Properties.Resources.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.ThongTinKhamBenh.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.XemLichHen.resources
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.GenerateResource.cache
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.CoreCompileInputs.cache
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.csproj.CopyComplete
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.exe
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic-Software.pdb
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\Clinic-Software\obj\Debug\Clinic_Software.ThanhToan.resources

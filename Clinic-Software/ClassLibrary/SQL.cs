@@ -13,8 +13,9 @@ namespace ClassLibrary
 
         public void Connect()
         {
-            string connectstr = "Data Source = DESKTOP-PO6RNRQ;Initial Catalog = QLPK;User ID = sa;Password = 123";
-           // string connectstr = @"Data Source = DESKTOP-97KSLKF\SQLEXPRESS;Initial Catalog = QLPK; Integrated Security = True";
+            // string connectstr = "Data Source = DESKTOP-PO6RNRQ;Initial Catalog = QLPK;User ID = sa;Password = 123";
+            string connectstr = "Data Source = CHOLE;Initial Catalog = QLPK;User ID = sa;Password = 123";
+            //string connectstr = "Data Source = DESKTOP-97KSLKF;Initial Catalog = QLPK; Integrated Security = True";
             Con = new SqlConnection(connectstr);
         }
         public void openConnect()
@@ -23,25 +24,49 @@ namespace ClassLibrary
         }
         public void closeConnect()
         {
-            if(Con.State.ToString()== "Open")
-            { 
-                Con.Close(); 
+            if (Con.State.ToString() == "Open")
+            {
+                Con.Close();
             }
         }
 
         public object getExecuteScalar(string sql)
         {
+            Connect();
+            openConnect(); // Mở kết nối
             SqlCommand cmd = new SqlCommand(sql, Con);
-            return cmd.ExecuteScalar();
+            object result = cmd.ExecuteScalar(); // Thực hiện lệnh và lấy kết quả
+            closeConnect(); // Đóng kết nối sau khi lệnh đã được thực thi
+            return result;
         }
+        public object getExecuteScalar(string sql, SqlParameter[] parameters)
+        {
+            Connect();
+            openConnect(); // Mở kết nối
+            SqlCommand cmd = new SqlCommand(sql, Con);
+            if (parameters != null)
+            {
+                cmd.Parameters.AddRange(parameters); // Thêm các tham số vào lệnh
+            }
+            object result = cmd.ExecuteScalar(); // Thực hiện lệnh và lấy kết quả
+            closeConnect(); // Đóng kết nối sau khi lệnh đã được thực thi
+            return result;
+        }
+
 
         public int getExecuteNonQuery(string sql)
         {
+            Connect();
+            openConnect(); // Mở kết nối
             SqlCommand cmd = new SqlCommand(sql, Con);
-            return cmd.ExecuteNonQuery();
+            int result = cmd.ExecuteNonQuery(); // Thực thi lệnh
+            closeConnect(); // Đóng kết nối sau khi lệnh đã được thực thi
+            return result;
         }
+
         public DataTable Get_DataTable(string sql)
         {
+            Connect();
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(sql, Con);
             da.Fill(dt);

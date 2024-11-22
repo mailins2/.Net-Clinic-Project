@@ -16,3 +16,9 @@ D:\Học tập\Công nghệ.Net\Do an chinh 4\.Net-Clinic-Project\Clinic-Softwar
 D:\Học tập\Công nghệ.Net\Do an chinh 4\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
 D:\Học tập\Công nghệ.Net\Do an chinh 4\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.dll
 D:\Học tập\Công nghệ.Net\Do an chinh 4\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.pdb
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\ClassLibrary\bin\Debug\ClassLibrary.dll
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\ClassLibrary\bin\Debug\ClassLibrary.pdb
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.dll
+E:\.Net\5\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.pdb

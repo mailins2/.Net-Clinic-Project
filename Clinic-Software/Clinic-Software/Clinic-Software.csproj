@@ -126,6 +126,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThanhToan.Designer.cs">
+      <DependentUpon>ThanhToan.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThongTinKhamBenh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -187,6 +193,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ThanhToan.resx">
+      <DependentUpon>ThanhToan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ThongTinKhamBenh.resx">
       <DependentUpon>ThongTinKhamBenh.cs</DependentUpon>
     </EmbeddedResource>
