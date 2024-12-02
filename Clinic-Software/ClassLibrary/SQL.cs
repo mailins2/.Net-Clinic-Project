@@ -13,9 +13,9 @@ namespace ClassLibrary
 
         public void Connect()
         {
-            string connectstr = "Data Source = LAPTOP-VGIBRND2\\SQLEXPRESS;Initial Catalog = QLPK;User ID = sa;Password = 123";
+            //string connectstr = "Data Source = LAPTOP-VGIBRND2\\SQLEXPRESS;Initial Catalog = QLPK;User ID = sa;Password = 123";
             //string connectstr = "Data Source = CHOLE;Initial Catalog = QLPK;User ID = sa;Password = 123";
-            //string connectstr = "Data Source = DESKTOP-97KSLKF;Initial Catalog = QLPK; Integrated Security = True";
+            string connectstr = @"Data Source = DESKTOP-97KSLKF\SQLEXPRESS;Initial Catalog = QLPK; Integrated Security = True";
             Con = new SqlConnection(connectstr);
         }
         public void openConnect()
@@ -71,6 +71,15 @@ namespace ClassLibrary
             SqlDataAdapter da = new SqlDataAdapter(sql, Con);
             da.Fill(dt);
             return dt;
+        }
+        public int Update_DataTable(string sql, DataTable dt)
+        {
+
+            SqlDataAdapter da = new SqlDataAdapter(sql, Con);
+            SqlCommandBuilder cmdBuilder = new SqlCommandBuilder(da);
+            da.Fill(dt);
+            int kq = da.Update(dt);
+            return kq;
         }
     }
 }

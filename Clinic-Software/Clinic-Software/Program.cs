@@ -18,14 +18,14 @@ namespace Clinic_Software
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Homepage());
+            //Application.Run(new Homepage());
             //Application.Run(new BacSi());
             //Application.Run(new KeDonThuoc());
             //Application.Run(new KhamBenh());
             //Application.Run(new ThongTinKhamBenh());
             //Application.Run(new KeDichVu());
-            //Application.Run(new Dangnhap());
-            //Application.Run(new Doimatkhau());
+            Application.Run(new Dangnhap());
+            Application.Run(new Doimatkhau());
             //Application.Run(new LichHen());
             //Application.Run(new XemLichHen());
             //Application.Run(new DangKyLichHen());
