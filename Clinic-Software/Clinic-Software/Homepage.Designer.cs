@@ -61,11 +61,12 @@
             this.tableLayoutPanel1.Controls.Add(this.menuStrip1, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.473214F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 93.52679F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(2075, 896);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1283, 573);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // menuStrip1
@@ -73,7 +74,6 @@
             this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.khámChữaBệnhToolStripMenuItem,
@@ -85,7 +85,8 @@
             this.trangCủaTôiToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(2075, 58);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(1283, 37);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -93,8 +94,9 @@
             // 
             this.khámChữaBệnhToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
             this.khámChữaBệnhToolStripMenuItem.Name = "khámChữaBệnhToolStripMenuItem";
-            this.khámChữaBệnhToolStripMenuItem.Size = new System.Drawing.Size(318, 54);
+            this.khámChữaBệnhToolStripMenuItem.Size = new System.Drawing.Size(201, 35);
             this.khámChữaBệnhToolStripMenuItem.Text = "Khám chữa bệnh";
+            this.khámChữaBệnhToolStripMenuItem.Click += new System.EventHandler(this.khámChữaBệnhToolStripMenuItem_Click);
             // 
             // quảnLýBệnhNhânToolStripMenuItem1
             // 
@@ -103,21 +105,21 @@
             this.xemBệnhÁnToolStripMenuItem1});
             this.quảnLýBệnhNhânToolStripMenuItem1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
             this.quảnLýBệnhNhânToolStripMenuItem1.Name = "quảnLýBệnhNhânToolStripMenuItem1";
-            this.quảnLýBệnhNhânToolStripMenuItem1.Size = new System.Drawing.Size(352, 54);
+            this.quảnLýBệnhNhânToolStripMenuItem1.Size = new System.Drawing.Size(221, 35);
             this.quảnLýBệnhNhânToolStripMenuItem1.Text = "Quản lý bệnh nhân";
             // 
             // danhSáchBệnhNhânToolStripMenuItem1
             // 
             this.danhSáchBệnhNhânToolStripMenuItem1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
             this.danhSáchBệnhNhânToolStripMenuItem1.Name = "danhSáchBệnhNhânToolStripMenuItem1";
-            this.danhSáchBệnhNhânToolStripMenuItem1.Size = new System.Drawing.Size(513, 56);
+            this.danhSáchBệnhNhânToolStripMenuItem1.Size = new System.Drawing.Size(321, 34);
             this.danhSáchBệnhNhânToolStripMenuItem1.Text = "Danh sách bệnh nhân";
             // 
             // xemBệnhÁnToolStripMenuItem1
             // 
             this.xemBệnhÁnToolStripMenuItem1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
             this.xemBệnhÁnToolStripMenuItem1.Name = "xemBệnhÁnToolStripMenuItem1";
-            this.xemBệnhÁnToolStripMenuItem1.Size = new System.Drawing.Size(513, 56);
+            this.xemBệnhÁnToolStripMenuItem1.Size = new System.Drawing.Size(321, 34);
             this.xemBệnhÁnToolStripMenuItem1.Text = "Xem bệnh án";
             // 
             // quảnLýLịchHẹnToolStripMenuItem
@@ -127,21 +129,21 @@
             this.xemLịchHẹnToolStripMenuItem});
             this.quảnLýLịchHẹnToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
             this.quảnLýLịchHẹnToolStripMenuItem.Name = "quảnLýLịchHẹnToolStripMenuItem";
-            this.quảnLýLịchHẹnToolStripMenuItem.Size = new System.Drawing.Size(306, 54);
+            this.quảnLýLịchHẹnToolStripMenuItem.Size = new System.Drawing.Size(192, 35);
             this.quảnLýLịchHẹnToolStripMenuItem.Text = "Quản lý lịch hẹn";
             // 
             // đặtHẹnToolStripMenuItem
             // 
             this.đặtHẹnToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
             this.đặtHẹnToolStripMenuItem.Name = "đặtHẹnToolStripMenuItem";
-            this.đặtHẹnToolStripMenuItem.Size = new System.Drawing.Size(372, 56);
+            this.đặtHẹnToolStripMenuItem.Size = new System.Drawing.Size(232, 34);
             this.đặtHẹnToolStripMenuItem.Text = "Đặt hẹn";
             // 
             // xemLịchHẹnToolStripMenuItem
             // 
             this.xemLịchHẹnToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
             this.xemLịchHẹnToolStripMenuItem.Name = "xemLịchHẹnToolStripMenuItem";
-            this.xemLịchHẹnToolStripMenuItem.Size = new System.Drawing.Size(372, 56);
+            this.xemLịchHẹnToolStripMenuItem.Size = new System.Drawing.Size(232, 34);
             this.xemLịchHẹnToolStripMenuItem.Text = "Xem lịch hẹn";
             // 
             // quảnLýKhoDượcToolStripMenuItem
@@ -151,28 +153,28 @@
             this.quảnLýXuấtNhậpThuốcToolStripMenuItem});
             this.quảnLýKhoDượcToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
             this.quảnLýKhoDượcToolStripMenuItem.Name = "quảnLýKhoDượcToolStripMenuItem";
-            this.quảnLýKhoDượcToolStripMenuItem.Size = new System.Drawing.Size(333, 54);
+            this.quảnLýKhoDượcToolStripMenuItem.Size = new System.Drawing.Size(210, 35);
             this.quảnLýKhoDượcToolStripMenuItem.Text = "Quản lý kho dược";
             // 
             // xemDanhSáchKhoDượcToolStripMenuItem
             // 
             this.xemDanhSáchKhoDượcToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
             this.xemDanhSáchKhoDượcToolStripMenuItem.Name = "xemDanhSáchKhoDượcToolStripMenuItem";
-            this.xemDanhSáchKhoDượcToolStripMenuItem.Size = new System.Drawing.Size(575, 56);
+            this.xemDanhSáchKhoDượcToolStripMenuItem.Size = new System.Drawing.Size(360, 34);
             this.xemDanhSáchKhoDượcToolStripMenuItem.Text = "Xem danh sách kho dược";
             // 
             // quảnLýXuấtNhậpThuốcToolStripMenuItem
             // 
             this.quảnLýXuấtNhậpThuốcToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
             this.quảnLýXuấtNhậpThuốcToolStripMenuItem.Name = "quảnLýXuấtNhậpThuốcToolStripMenuItem";
-            this.quảnLýXuấtNhậpThuốcToolStripMenuItem.Size = new System.Drawing.Size(575, 56);
+            this.quảnLýXuấtNhậpThuốcToolStripMenuItem.Size = new System.Drawing.Size(360, 34);
             this.quảnLýXuấtNhậpThuốcToolStripMenuItem.Text = "Quản lý xuất, nhập thuốc";
             // 
             // quảnLýNhânSựToolStripMenuItem
             // 
             this.quảnLýNhânSựToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
             this.quảnLýNhânSựToolStripMenuItem.Name = "quảnLýNhânSựToolStripMenuItem";
-            this.quảnLýNhânSựToolStripMenuItem.Size = new System.Drawing.Size(307, 54);
+            this.quảnLýNhânSựToolStripMenuItem.Size = new System.Drawing.Size(194, 35);
             this.quảnLýNhânSựToolStripMenuItem.Text = "Quản lý nhân sự";
             // 
             // báoCáoToolStripMenuItem
@@ -184,31 +186,31 @@
             this.báoCáoVềKháchHàngToolStripMenuItem});
             this.báoCáoToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
             this.báoCáoToolStripMenuItem.Name = "báoCáoToolStripMenuItem";
-            this.báoCáoToolStripMenuItem.Size = new System.Drawing.Size(169, 54);
+            this.báoCáoToolStripMenuItem.Size = new System.Drawing.Size(108, 35);
             this.báoCáoToolStripMenuItem.Text = "Báo cáo";
             // 
             // báoCáoDoanhThuToolStripMenuItem
             // 
             this.báoCáoDoanhThuToolStripMenuItem.Name = "báoCáoDoanhThuToolStripMenuItem";
-            this.báoCáoDoanhThuToolStripMenuItem.Size = new System.Drawing.Size(661, 56);
+            this.báoCáoDoanhThuToolStripMenuItem.Size = new System.Drawing.Size(414, 34);
             this.báoCáoDoanhThuToolStripMenuItem.Text = "Báo cáo doanh thu";
             // 
             // báoCáoHiệuQuảĐiềuTrịToolStripMenuItem
             // 
             this.báoCáoHiệuQuảĐiềuTrịToolStripMenuItem.Name = "báoCáoHiệuQuảĐiềuTrịToolStripMenuItem";
-            this.báoCáoHiệuQuảĐiềuTrịToolStripMenuItem.Size = new System.Drawing.Size(661, 56);
+            this.báoCáoHiệuQuảĐiềuTrịToolStripMenuItem.Size = new System.Drawing.Size(414, 34);
             this.báoCáoHiệuQuảĐiềuTrịToolStripMenuItem.Text = "Báo cáo hiệu quả điều trị";
             // 
             // báoCáoDoanhThuCácDịchVụToolStripMenuItem
             // 
             this.báoCáoDoanhThuCácDịchVụToolStripMenuItem.Name = "báoCáoDoanhThuCácDịchVụToolStripMenuItem";
-            this.báoCáoDoanhThuCácDịchVụToolStripMenuItem.Size = new System.Drawing.Size(661, 56);
+            this.báoCáoDoanhThuCácDịchVụToolStripMenuItem.Size = new System.Drawing.Size(414, 34);
             this.báoCáoDoanhThuCácDịchVụToolStripMenuItem.Text = "Báo cáo doanh thu các dịch vụ";
             // 
             // báoCáoVềKháchHàngToolStripMenuItem
             // 
             this.báoCáoVềKháchHàngToolStripMenuItem.Name = "báoCáoVềKháchHàngToolStripMenuItem";
-            this.báoCáoVềKháchHàngToolStripMenuItem.Size = new System.Drawing.Size(661, 56);
+            this.báoCáoVềKháchHàngToolStripMenuItem.Size = new System.Drawing.Size(414, 34);
             this.báoCáoVềKháchHàngToolStripMenuItem.Text = "Báo cáo về khách hàng";
             // 
             // trangCủaTôiToolStripMenuItem
@@ -217,16 +219,17 @@
             this.trangCủaTôiToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
             this.trangCủaTôiToolStripMenuItem.Name = "trangCủaTôiToolStripMenuItem";
             this.trangCủaTôiToolStripMenuItem.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.trangCủaTôiToolStripMenuItem.Size = new System.Drawing.Size(256, 54);
+            this.trangCủaTôiToolStripMenuItem.Size = new System.Drawing.Size(162, 35);
             this.trangCủaTôiToolStripMenuItem.Text = "Trang của tôi";
             this.trangCủaTôiToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Homepage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2075, 896);
+            this.ClientSize = new System.Drawing.Size(1283, 573);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Homepage";
             this.Text = "Form1";
             this.tableLayoutPanel1.ResumeLayout(false);

@@ -19,19 +19,8 @@ namespace Clinic_Software
         List<int> selectedrow = new List<int>();
         int click_count = 0;
         int saved_control = 0;
+        string MALICHHEN;
         ThongTinKhamBenh thongtinkhambenh = new ThongTinKhamBenh
-        {
-            Dock = DockStyle.Fill,
-            FormBorderStyle = FormBorderStyle.None,
-            TopLevel = false
-        };
-        KeDichVu kedichvu = new KeDichVu
-        {
-            Dock = DockStyle.Fill,
-            FormBorderStyle = FormBorderStyle.None,
-            TopLevel = false
-        };
-        KeDonThuoc kedonthuoc = new KeDonThuoc
         {
             Dock = DockStyle.Fill,
             FormBorderStyle = FormBorderStyle.None,
@@ -42,36 +31,15 @@ namespace Clinic_Software
             InitializeComponent();
             sql.Connect();
             sql.openConnect();
-        }
-        private void aToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            kedichvu.Hide();
-            kedonthuoc.Hide();
+            this.WindowState = FormWindowState.Maximized;
             panel1.Controls.Add(thongtinkhambenh);
             panel1.Tag = thongtinkhambenh;
             thongtinkhambenh.Show();
         }
-
-        private void kêDịchVụToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            thongtinkhambenh.Hide();
-            kedonthuoc.Hide();
-            panel1.Controls.Add(kedichvu);
-            panel1.Tag = kedichvu;
-            kedichvu.Show();
-        }
-        private void kêĐơnThuốcToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            thongtinkhambenh.Hide();
-            kedichvu.Hide();
-            panel1.Controls.Add(kedonthuoc);
-            panel1.Tag = kedonthuoc;
-            kedonthuoc.Show();
-        }
         private void KhamBenh_Load(object sender, EventArgs e)
         {
             Program.LoginID = "BS0004";
-            SqlDataAdapter adt = new SqlDataAdapter("SELECT MALH,HOTEN,FORMAT(NGAYHEN,'HH:mm dd/MM/yyyy') AS 'NGAYHEN' FROM LICHHEN,BENHNHAN WHERE BENHNHAN.MABN = LICHHEN.MABN AND ngayhen>= GETDATE() AND MABS = '" + Program.LoginID+ "' order by cast(ngayhen as date), cast(ngayhen as time);", sql.Con);
+            SqlDataAdapter adt = new SqlDataAdapter("SELECT MALH,HOTEN,FORMAT(NGAYHEN,'HH:mm dd/MM/yyyy') AS 'NGAYHEN' FROM LICHHEN,BENHNHAN WHERE BENHNHAN.MABN = LICHHEN.MABN AND ngayhen>= GETDATE() AND TRANGTHAI = N'đã xác nhận' AND MABS = '" + Program.LoginID+ "' order by cast(ngayhen as date), cast(ngayhen as time);", sql.Con);
             DataTable dt = new DataTable();
             adt.Fill(dt);
             dataGridViewDsBN.DataSource = dt;
@@ -81,7 +49,6 @@ namespace Clinic_Software
             btns.UseColumnTextForButtonValue = true;
             dataGridViewDsBN.Columns.Add(btns);
             thongtinkhambenh.UpdateData(1,string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty);
-            aToolStripMenuItem_Click(sender, e);
             thongtinkhambenh.Kham(false);
         }
         private void addSelectedRow(int i)
@@ -96,7 +63,7 @@ namespace Clinic_Software
         private void dataGridViewDsBN_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow row = dataGridViewDsBN.Rows[e.RowIndex];
-            string malh = row.Cells["MALH"].Value.ToString();
+            string malh = MALICHHEN = row.Cells["MALH"].Value.ToString();
             string mabn = sql.getExecuteScalar("SELECT MABN FROM LICHHEN WHERE MALH = '" + malh + "'").ToString();
             string tenbn = row.Cells["HOTEN"].Value.ToString();
             string ngaysinh = sql.getExecuteScalar("SELECT FORMAT(NGAYSINH,'dd/MM/yyyy')  FROM BENHNHAN WHERE MABN = '" + mabn + "'").ToString();
@@ -132,6 +99,8 @@ namespace Clinic_Software
                     thongtinkhambenh.Kham(true);
                     tenbnht = dataGridViewDsBN.SelectedCells[1].Value.ToString();
                     saved_control = 0;
+                    kethucbtn.Enabled = true;
+                    sql.getExecuteNonQuery("UPDATE LICHHEN SET TRANGTHAI = N'đang khám' WHERE MALH = '" + MALICHHEN + "'");
                 }
                 else
                 {
@@ -152,9 +121,15 @@ namespace Clinic_Software
                     thongtinkhambenh.Kham(false);
                 }
             }
-
-            
         }
-        
+
+        private void kethucbtn_Click(object sender, EventArgs e)
+        {
+            sql.getExecuteNonQuery("UPDATE LICHHEN SET TRANGTHAI = N'đã khám' WHERE MALH = '" + MALICHHEN + "'");
+            selectedrow.Clear();
+            this.Hide(); 
+            var newForm = new KhamBenh(); 
+            newForm.Show(); 
+        }
     }    
 }

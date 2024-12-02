@@ -62,7 +62,6 @@ namespace Clinic_Software
                 }
                 checkBox1.Enabled = true;
                 LuuBtn.Enabled = true;
-                InBtn.Enabled = true;
             }
             else
             {
@@ -191,9 +190,8 @@ namespace Clinic_Software
                 {
                     string stt = sql.getExecuteScalar("SELECT FORMAT(COUNT(*)+1, '0000') FROM LSKHAM").ToString();
                     string maba = "BA" + stt;
-                    DateTime ngaykham =(DateTime) sql.getExecuteScalar("SELECT NGAYHEN FROM LICHHEN WHERE MALH = '" + malh.Text + "'");
                     
-                    sql.getExecuteNonQuery("INSERT INTO LSKHAM VALUES('"+maba+"','"+mabn.Text+"','"+Program.LoginID+ "','"+ ngaykham.ToString("yyyy-MM-dd")+ "','" + chandoantxt.Text+"','"+dieutritxt.Text+"')");
+                    sql.getExecuteNonQuery("INSERT INTO LSKHAM VALUES('"+maba+"','"+mabn.Text+"','"+Program.LoginID+ "','"+ DateTime.Now.Date.ToString("yyyy-MM-dd")+ "',N'" + chandoantxt.Text+"',N'"+dieutritxt.Text+"')");
                     if (checkBox1.Checked)
                     {
                         stt = sql.getExecuteScalar("SELECT FORMAT(COUNT(*)+1, '0000') FROM LICHHEN").ToString();
@@ -202,8 +200,18 @@ namespace Clinic_Software
                         sql.getExecuteNonQuery("INSERT INTO LICHHEN VALUES('" + malh + "','" + mabn.Text + "','" + Program.LoginID + "','" + dateTimePicker1.Value.ToString("yyyy-MM-dd HH:mm") + "',N'Chưa xác nhận')");
                     }
                     MessageBox.Show("Đã thêm bệnh án thành công !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LuuBtn.Enabled = false;
+                    InBtn.Enabled = true;
+                    kedonbtn.Enabled = true;
                 }
             }
+        }
+
+        private void kedonbtn_Click(object sender, EventArgs e)
+        {
+            KeDonThuoc kdt = new KeDonThuoc();
+            kdt.MABN = mabn.Text;
+            kdt.Show();
         }
     }
 }

@@ -22,3 +22,9 @@ E:\.Net\5\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrar
 E:\.Net\5\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
 E:\.Net\5\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.dll
 E:\.Net\5\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\Acer\OneDrive\ドキュメント\GitHub\.Net-Clinic-Project\Clinic-Software\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\Acer\OneDrive\ドキュメント\GitHub\.Net-Clinic-Project\Clinic-Software\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\Acer\OneDrive\ドキュメント\GitHub\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\ドキュメント\GitHub\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\ドキュメント\GitHub\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\Acer\OneDrive\ドキュメント\GitHub\.Net-Clinic-Project\Clinic-Software\ClassLibrary\obj\Debug\ClassLibrary.pdb

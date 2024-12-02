@@ -94,12 +94,6 @@
     <Compile Include="Homepage.Designer.cs">
       <DependentUpon>Homepage.cs</DependentUpon>
     </Compile>
-    <Compile Include="KeDichVu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="KeDichVu.Designer.cs">
-      <DependentUpon>KeDichVu.cs</DependentUpon>
-    </Compile>
     <Compile Include="KeDonThuoc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,9 +161,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Homepage.resx">
       <DependentUpon>Homepage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KeDichVu.resx">
-      <DependentUpon>KeDichVu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KeDonThuoc.resx">
       <DependentUpon>KeDonThuoc.cs</DependentUpon>

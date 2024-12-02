@@ -15,8 +15,13 @@ namespace Clinic_Software
         public Homepage()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
-        
+        private void khámChữaBệnhToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            KhamBenh kb = new KhamBenh();
+            kb.Show();
+        }
     }
 }
